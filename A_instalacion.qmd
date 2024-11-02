@@ -1,0 +1,38 @@
+## Preparando el entorno de trabajo {.appendix}
+
+Este anexo detalla los pasos a seguir para instalar todo el software que vamos a necesitar para el taller:
+
+- Git
+
+Tambien vamos a ver como crear cuentas en las plataformas en la nube que vamos a utilizar:
+
+- GitHub
+
+
+::: importante
+Si ya tenes cuenta en alguna de las plataformas, no hace falta que crees una nueva, pero por favor chequea que podes ingresar antes del taller asi nos seguramos que puedas usarla. 
+:::
+
+## Instalando Git {-}
+
+Git es una herramienta para control de versiones, vamos a utilizarla para trabajar colaborativamente.  
+
+En la pagina de [Git](https://git-scm.com/) podemos descargar el instalador para nuestro sistema operativo.
+
+En esa misma pagina [hay una guia de instalacion para cada sistema operativo en castellano](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalación-de-Git).  Sigue las instrucciones detallas en la misma.  
+
+
+## Crear cuentas {-}
+
+### Crear una cuenta en GitHub {-}
+
+GitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software.  Vamos a utilizarlo para compartir el codigo que vamos a escribir en la materia.
+
+- Ir a <https://github.com/>.
+
+- Hacer clik en Registrarse or Sign up.
+
+- Seguir las indicaciones para crear la cuenta personal.
+
+- Uno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta. 
+
