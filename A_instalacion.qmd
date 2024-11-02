@@ -22,9 +22,7 @@ En la pagina de [Git](https://git-scm.com/) podemos descargar el instalador para
 En esa misma pagina [hay una guia de instalacion para cada sistema operativo en castellano](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalación-de-Git).  Sigue las instrucciones detallas en la misma.  
 
 
-## Crear cuentas {-}
-
-### Crear una cuenta en GitHub {-}
+## Crear una cuenta en GitHub {-}
 
 GitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software.  Vamos a utilizarlo para compartir el codigo que vamos a escribir en la materia.
 

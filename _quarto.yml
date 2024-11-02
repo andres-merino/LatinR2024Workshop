@@ -10,19 +10,12 @@ book:
   language: "ES"
   repo-url: ""
   chapters:
-#    - index.qmd
-#    - 00_intro.qmd
-#    - 01_repo.qmd
-#    - 02_issues.qmd
-#    - 03_projects.qmd
-#    - references.qmd
+    - index.qmd
   appendices:
     - A_instalacion.qmd
   sidebar:
     background: "#275f8a"
     search: true
-
-bibliography: references.bib
 
 format:
   html:

@@ -1,0 +1,61 @@
+# Te damos la bienvenida {.unnumbered}
+
+::: enconstruccion
+Estos materiales están en desarrollo. 
+:::
+
+
+## Sobre este taller
+
+:::todo
+
+Completar con la informacion del curso
+
+:::
+
+
+## Reutilización y licencia {#sec-licensing}
+
+Todo el material puede reutilizarse libremente bajo los términos de la licencia
+[Creative Commons Reconocimiento 4.0 Internacional
+Licencia](https://creativecommons.org/licenses/by/4.0/), esto significa que el material
+puede utilizarse, reutilizarse y modificarse, siempre que se cite esta fuente.
+
+El código fuente del libro se encuentra en el [repositorio de GitHub]().
+
+Cualquier corrección,
+o contribuciones son bienvenidas. Visitá nuestra página
+[sobre como contribuir]() para conocer más.
+
+
+## Convenciones en el libro
+
+El libro esta ordenado en capitulos que abarcan un tema en particular. Dentro del capitulo podemos presentar ejercicios, ejemplos, consejos, advertencias, etc. Para diferenciar estos elementos utilizamos los siguientes bloques:
+
+::: ejercicio
+Este es un ejercicio
+:::
+
+::: ejemplo
+Este es un ejemplo
+:::
+
+::: importante
+A tener en cuenta!
+:::
+
+::: tip
+Este es un consejo
+:::
+
+
+## Bibliografia 
+
+
+
+## Fuentes
+
+Este libro utilizo como fuentes los siguientes materiales:
+
+* Research Software Engineering with Python: Building software that makes research possible de Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, y Greg Wilson. Disponible de manera gratuita: https://third-bit.com/py-rse/ 
+
