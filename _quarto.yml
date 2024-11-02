@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: docs
+  resources: images/_icons/
+
+book:
+  title: ""
+  author: "Beatriz Milz y Yanina Bellini Saibene"
+  doi: TBD
+  language: "ES"
+  repo-url: ""
+  chapters:
+#    - index.qmd
+#    - 00_intro.qmd
+#    - 01_repo.qmd
+#    - 02_issues.qmd
+#    - 03_projects.qmd
+#    - references.qmd
+  appendices:
+    - A_instalacion.qmd
+  sidebar:
+    background: "#275f8a"
+    search: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: [cosmo, style.scss]
+    code-link: true
+    mainfont: Noto Sans
+    monofont: Source Code Pro
+    author-meta: "Beatriz Milz y Yanina Bellini Saibene"
+  pdf:
+    documentclass: scrreprt
+
+
+
