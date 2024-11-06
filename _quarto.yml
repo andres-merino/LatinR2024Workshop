@@ -10,7 +10,15 @@ book:
   language: "ES"
   repo-url: "https://github.com/Git4Researchers/LatinR2024Workshop"
   chapters:
-    - index.qmd
+    - text: "Informaciones"
+      href: index.qmd
+    - intro.qmd
+    - repositories.qmd
+    - profile.qmd
+    - issues.qmd
+    - projects.qmd
+    - collaboration.qmd
+    - release.qmd
   appendices:
     - A_instalacion.qmd
   sidebar:
