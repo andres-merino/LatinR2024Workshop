@@ -4,11 +4,11 @@ project:
   resources: images/_icons/
 
 book:
-  title: ""
+  title: "Introducción a GitHub para Investigador(a|e)s"
   author: "Beatriz Milz y Yanina Bellini Saibene"
   doi: TBD
   language: "ES"
-  repo-url: ""
+  repo-url: "https://github.com/Git4Researchers/LatinR2024Workshop"
   chapters:
     - index.qmd
   appendices:
