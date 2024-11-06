@@ -18,13 +18,13 @@ Al final del taller, los participantes serán capaces de integrar GitHub en sus 
 
 Los objetivos específicos de aprendizaje incluyen:
 
-    - Comprender los conceptos básicos del control de versiones y cómo se aplican a los flujos de trabajo de investigación.
+  - Comprender los conceptos básicos del control de versiones y cómo se aplican a los flujos de trabajo de investigación.
 
-    - Adquirir experiencia práctica en la creación y gestión de repositorios de GitHub.
+  - Adquirir experiencia práctica en la creación y gestión de repositorios de GitHub.
 
-    - Explorar el uso de GitHub Issues y Projects para gestionar las tareas de investigación y la comunicación dentro de los equipos de investigación.
+  - Explorar el uso de GitHub Issues y Projects para gestionar las tareas de investigación y la comunicación dentro de los equipos de investigación.
 
-    - Reconocer los diferentes componentes de un repositorio (readme, licencia, código de conducta, citas, entre otros).
+  - Reconocer los diferentes componentes de un repositorio (readme, licencia, código de conducta, citas, entre otros).
 
 
 ## ¿A quién está dirigido el tutorial?
