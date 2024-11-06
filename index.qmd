@@ -10,6 +10,12 @@ Estos materiales están en desarrollo.
 Este taller está diseñado para introducir a investigadoras/es a GitHub, una potente plataforma para el control de versiones y la colaboración.
 Los participantes aprenderán los fundamentos del uso de GitHub para gestionar sus proyectos de investigación, incluyendo cómo crear y gestionar repositorios, realizar un seguimiento de los cambios y colaborar con otras personas.
 
+Además, el taller hará hincapié en la relevancia de GitHub en la promoción de la ciencia abierta, destacando su papel como repositorio de código y datos que apoya la transparencia y la reproducibilidad en la investigación.
+
+Al final del taller, los participantes serán capaces de integrar GitHub en sus flujos de trabajo de investigación, mejorando tanto la colaboración como la difusión abierta del conocimiento científico.
+
+### Objectivos de aprendizaje 
+
 Los objetivos específicos de aprendizaje incluyen:
 
     - Comprender los conceptos básicos del control de versiones y cómo se aplican a los flujos de trabajo de investigación.
@@ -20,11 +26,11 @@ Los objetivos específicos de aprendizaje incluyen:
 
     - Reconocer los diferentes componentes de un repositorio (readme, licencia, código de conducta, citas, entre otros).
 
-Además, el taller hará hincapié en la relevancia de GitHub en la promoción de la ciencia abierta, destacando su papel como repositorio de código y datos que apoya la transparencia y la reproducibilidad en la investigación.
 
-Al final del taller, los participantes serán capaces de integrar GitHub en sus flujos de trabajo de investigación, mejorando tanto la colaboración como la difusión abierta del conocimiento científico.
+## ¿A quién está dirigido el tutorial?
 
-Este tutorial está dirigido a investigadoras/es de todas las disciplinas interesados en mejorar sus habilidades de gestión de proyectos y colaboración utilizando GitHub. Es ideal para quienes forman parte de equipos o grupos de investigación, con cierta familiaridad con los flujos de trabajo de investigación, pero no se requiere experiencia previa con GitHub. 
+Este tutorial está dirigido a investigadoras/es de todas las disciplinas interesados en mejorar sus habilidades de gestión de proyectos y colaboración utilizando GitHub.
+ Es ideal para quienes forman parte de equipos o grupos de investigación, con cierta familiaridad con los flujos de trabajo de investigación, pero no se requiere experiencia previa con GitHub. 
 
 ## Tutoras
 
