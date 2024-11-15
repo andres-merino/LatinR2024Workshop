@@ -1,10 +1,12 @@
 ---
-title: "Repository"
+title: "Repositorios"
 ---
+
+Un repositorio es el elemento más básico de GitHub. Es un lugar donde se almacena código, datos, otros tipos de archivo y el historial de cambios de cada uno de ellos. Los repositorios pueden contar con múltiples colaboradores y pueden ser públicos como privados.
 
 ## Creando un nuevo repositorio
 
-Hay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub, asociarlo a un proyecto de RStudio y trabajar con él. Pero tené en cuenta que hay muchas otras formas de trabajar con git.
+Hay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o incluso desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub.
 
 ::: ejercicio
 **1. Creá un repositorio online.**
@@ -18,10 +20,10 @@ A continuación completá la información del repositorio:
 -   Repository name: como quieras llamar a tu nuevo proyecto.
 -   Description: Una descripción breve del proyecto. Escribila para los humanos.
 -   Visibilidad: Public.
--   Initialize this repository with: nada (podemos configurarlo todo desde R).
-
-Antes de volver a RStudio, copia la url del repositorio. Por ejemplo `https://github.com/yabellini/.git`
+-   Initialize this repository with: Add a README file.
+-   Choose a license: selecciona MIT por ahora. 
 :::
+
 
 ## Anatomía de un repositorio de GitHub
 
@@ -38,9 +40,30 @@ Antes de volver a RStudio, copia la url del repositorio. Por ejemplo `https://gi
 
 -   *Issues.* Te permiten gestionar el proyecto, discutir problemas y mejoras con otras personas.
 
+### Carpetas
+
+Los repositorios ademas de archivos pueden contener carpetas, lo que es muy util para mantener nuestra investigacion ordenada.
+
+Lo que cuenta como “organizado” es muy personal, pero lo principal es que la estructura de carpetas y los nombres de los archivos deben ser autodocumentados (entender de que se trata con solo leer el nombre) y deben contener siempre archivos del mismo "tipo". 
+
+Entonces, coloca tus datos en la carpeta `datos`, los scripts con el codigo de preprocesamiento en la carpeta `scripts` o `preprocesamiento` y tu análisis en la carpeta `analisis`. Utiliza también subcarpetas, como `datos/crudos` para guardar los datos originales y `datos/derivados` para los datos preprocesados y depurados.
+
+Nombrá tus archivos de modo que puedas saber que incluyen aún si pasaron 10 años desde que los creaste.
+
+Utiliza nombres cortos, descripciones breves de lo que hay dentro.
+
+
+::: tip
+Si trasbajas con RStudio, es una muy buena idea que el repositorio contenga un proyecto de RStudio, que ayuda a tener todos los elementos de un proyecto de datos ordenados.
+:::
+
 ::: ejercicio
 
-Vamos a crear el perfil en GitHub.  Esto va a permitir que las personas te identifiquen mejor en esa plataforma y que vayas teniendo tu portfolio como cientifico/a de datos y desarrollador de software:
+Para este ejercicio vamos a usar un reporsitorio especial. 
+
+Vamos a crear **el readme de tu perfil en GitHub**. Es lo que aparece al costado de la foto en tu pagina de perfil. 
+
+Esto va a permitir que las personas te identifiquen mejor en esa plataforma y que vayas teniendo tu portfolio como cientifico/a:
 
 Para eso tenes que:
 
