@@ -1,12 +1,13 @@
 ---
 title: "Projects"
-# what projects are, how to create projects, different views, public/private projects.
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ## ¿Qué son los proyectos de GitHub?
 
-Los proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo,
-integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).
+Los proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).
 
 ::: todo
 Adicionar uma imagem ilustrativa.
@@ -16,10 +17,9 @@ Los proyectos forman parte de una cuenta (personal u organización).
 Un proyecto no "pertenece" a un repositorio, sino que está vinculado a uno.
 Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.
 
-
 ## Creando un proyecto en GitHub
 
-Los proyectos pueden ser creados vinculados a un repositorio utilizando la pestaña "Projects", y luego "New Project". 
+Los proyectos pueden ser creados vinculados a un repositorio utilizando la pestaña "Projects", y luego "New Project".
 También es posible vincular un proyecto existente a un repositorio.
 
 En el siguiente ejemplo, vamos a crear un nuevo proyecto vinculado al repositorio:
@@ -47,24 +47,23 @@ Usando la plantilla elegida, comenzamos con 3 columnas: To do (por hacer), Doing
 
 Este formato es conocido como Kanban, y es muy útil para visualizar el flujo de trabajo y el estado de las tareas.
 
-![Ejemplo de tablero Kanban](images/kanban-ejemplo.png)
+![Ejemplo de tablero Kanban](images/kanban-ejemplo.png){width="50%"}
 
 Si estas columnas no son suficientes, podemos crear nuevas columnas usando el botón de `+`:
 
-![Captura de pantalla - Projects - Ejemplo de añadir columna](images/projects-new-column-1.png)
+![Captura de pantalla - Projects - Ejemplo de añadir columna](images/projects-new-column-1.png){fig-align="center" width="30%"}
 
 Podemos configurar algunos elementos para la columna, como: nombre (Label text), color (Color) y descripción (Description):
-![Captura de pantalla - Projects - Configurar columna](images/projects-new-column-2.png)
 
+![Captura de pantalla - Projects - Configurar columna](images/projects-new-column-2.png){fig-align="center" width="30%"}
 
 ¡Ahora la columna está creada!
 ![Captura de pantalla - Projects - Configurar columna](images/projects-new-column-3.png)
 
+Sin embargo, tiene más sentido que sea la primera columna presentada.
+Podemos mover la columna arrastrándola.
 
-Sin embargo, tiene más sentido que sea la primera columna presentada. Podemos mover la columna arrastrándola.
-
-![Captura de pantalla - Projects - Move columns](images/projects-column-move.gif)
-
+![Captura de pantalla - Projects - Move columns](images/project-column-move.gif)
 
 El siguiente paso es añadir contenidos al proyecto.
 
@@ -74,10 +73,7 @@ El siguiente paso es añadir contenidos al proyecto.
 ...
 :::
 
-
-
 ## Projetos Públicos x Privados
-
 
 ::: todo
 ...
@@ -86,8 +82,5 @@ El siguiente paso es añadir contenidos al proyecto.
 ## Ejercicio
 
 ::: ejercicio
-
 ....
-
-::: 
-
+:::
