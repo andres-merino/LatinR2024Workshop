@@ -71,32 +71,34 @@ El siguiente paso es añadir contenidos al proyecto.
 
 Para añadir elementos a nuestro proyecto, podemos hacer clic en `+ Add Item` en la parte inferior de la columna donde queremos añadir el elemento.
 
-Podemos añadir un elemento de las siguientes maneras:
-- Escribiendo un breve mensaje (que puede ser convertido en una Issue);
-- A partir de una Issue existente;
+Podemos añadir un elemento de las siguientes maneras: 
+
+- Escribiendo un breve mensaje (que puede ser convertido en una Issue); 
+
+- A partir de una Issue existente; 
+
 - A partir de un Pull Request (PR) existente ([hablaremos de PR's en breve](collaboration.qmd), pero es una herramienta importante para la colaboración en proyectos).
 
-Vamos a empezar añadiendo un elemento con un mensaje simple. Para ello, hacemos clic en `+ Add Item`, escribimos un breve mensaje sobre la tarea y luego presionamos enter (o hacemos clic en "Create a Draft"):
+Vamos a empezar añadiendo un elemento con un mensaje simple.
+Para ello, hacemos clic en `+ Add Item`, escribimos un breve mensaje sobre la tarea y luego presionamos enter (o hacemos clic en "Create a Draft"):
 
-
-![Captura de pantalla - Projects - Add item](images/project-add-item-text.gif)
+![Captura de pantalla - Projects - Add item](images/projects-add-item-text.gif)
 
 Otra forma de añadir elementos es agregar una Issue o Pull Request existente.
 Para ello, hacemos clic en `+ Add Item`, y en la caja de mensajes escribimos `#`.
 GitHub nos ofrecerá algunas opciones de repositorio, y debemos elegir el repositorio donde se encuentra la Issue/Pull Request que queremos añadir.
 Después de elegir el repositorio, GitHub presentará una lista de Issues y Pull Requests que podemos seleccionar para añadir al proyecto.
 
-![Captura de pantalla - Projects - Add item from Issues and Pull Requests](images/project-add-item-issues-pr.gif)
+![Captura de pantalla - Projects - Add item from Issues and Pull Requests](images/projects-add-item-issues-pr.gif)
 
-### Adicionar 
+### Adicionar
 
-- Labe
+-   Labe
 
 ::: todo
-- Labels
-- Assignees
-- Milestones
-
+-   Labels
+-   Assignees
+-   Milestones
 :::
 
 ## Projetos Públicos x Privados
