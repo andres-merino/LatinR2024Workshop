@@ -1,3 +1,27 @@
 ---
 title: "Introdución"
+# Brief introduction of concepts: What is Git? What is GitHub?
 ---
+
+## ¿Por qué git?
+
+¿Tenés algo así en tu computadora?
+
+```         
+/home/yani/Documents/Clases/programacion
+├── script.R
+├── tp.Rmd
+├── tp_corregido.Rmd
+├── tp_corregido2.Rmd
+├── tp_final.Rmd
+├── tp_finalfinal.Rmd
+├── este_es_el_final.Rmd
+├── juro_que_esta_es_la_ultima_version_del_tp.Rmd
+└── FINAL.Rmd
+```
+
+Probablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores.
+Existe una solución para esto.
+Los sistemas de control de versiones gestionan la evolución y los cambios de un conjunto de archivos que llamaremos **repositorio**.
+Si alguna vez has mirado el historial de un archivo de Google Docs, es así pero de una forma muy controlada.
+Git es un sistema de control de versiones muy popular, pero hay otros.
