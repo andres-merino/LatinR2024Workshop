@@ -58,6 +58,8 @@ Tambien podemos seleccionar que tipo de contribuciones vamos a dejar que otras p
 
 ::: ejercicio
 
+### Este es un desafio opcional
+
 Si tienes repositorios vamos a fijar algunos.  Para eso segui estos pasos:
 
 1. En la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en _Your profile_ (Tu perfil).
@@ -71,13 +73,3 @@ Si tienes repositorios vamos a fijar algunos.  Para eso segui estos pasos:
 Haga clic en Save pins.
 
 :::
-
-::: ejercicio
-
-Configura como van a aparecer tus contribuciones.  Para eso sigue los siguientes pasos:
-
-
-
-:::
-
-
