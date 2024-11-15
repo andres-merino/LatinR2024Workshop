@@ -23,24 +23,27 @@ Una vez que creamos una cuenta en GitHub, tenemos nuestro perfil publico en inte
 
 La página de tu perfil cuenta la historia de tu trabajo a través de los repositorios en los que te interesas, las colaboraciones que has realizado y las conversaciones que has tenido.
 
-Si revisamos [el perfil en GitHub de Yanina](https://github.com/yabellini) vamos a ver un par de cosas interesantes:
+Si revisamos [el perfil en GitHub de Yanina](https://github.com/yabellini) vamos a ver un par de cosas interesantes en columna izquierda de la página:
 
 - _Informacion general:_  llamamos a esto todo lo que aparece debajo de la foto del perfil.  Nombre, pronombres y una mini bio.  Luego datos de cuantos seguidores tienen y a cuantas personas sigue. Ademas se puede detallar:
 
-  * Lugar de trabajo: @ropensci
+  * Lugar de trabajo: [@ropensci](https://github.com/ropensci)
   * Localizacion: Santa Rosa, La Pampa, Argentina
   * Zona horaria: 12:51 (UTC -03:00)
-  * Sitio web: https://yabellini.netlify.app
-  * ORCID: https://orcid.org/0000-0002-4522-7466
+  * Sitio web: <https://yabellini.netlify.app>
+  * ORCID: <https://orcid.org/0000-0002-4522-7466>
   * Diversas redes sociales como Mastodon, LinkedIn, BlueSky y Youtube. 
 
-- _Notificaciones y logros_:destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.
+- _Notificaciones y logros_: destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.
 
 - _Organizaciones_: un listado de las organizaciones que estan presentes en GitHub y de las cuales sos parte.  Esto se completa automaticamente, aunque puedes decidir si algunas cosas son visibles o no.
 
+![Captura de pantalla - Perfil de Yani](images/profile-yani.png)
 ::: ejercicio
 
-Entra a tu perfil y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.
+En la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en _Your profile_ (Tu perfil).
+ 
+Entra a tu perfil, clique en "Edit Profile", y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.
 
 Cuando termines comparti el link a tu perfil en el chat y en el documento compartido. 
 
@@ -49,10 +52,18 @@ Cuando termines comparti el link a tu perfil en el chat y en el documento compar
 ## Informacion de nuestra actividad
 
 Los perfiles ademas muestran nuestros repositorios y nuestra actividad mas reciente. 
+En la imagen de abajo, tenemos las actividades más recientes en el [perfil de GitHub de Yani](https://github.com/yabellini):
 
-Tambien podemos personalizarlo agregando un resumen de nuestra actividad. 
+![Captura de pantalla - Perfil de Yani - Actividad mas reciente](images/profile-yani-recent-activity.png)
+
+Tambien podemos personalizarlo agregando un resumen de nuestra actividad. En la imagen de abajo, tenemos el resumen del [perfil de GitHub de Yani](https://github.com/yabellini):
+![Captura de pantalla - Perfil de Yani - Resumen](images/profile-yani-readme.png)
 
 Podemos seleccionar que mostrar de cada una de estas secciones.  Por ejemplo podemos fijar hasta seis repositorios en nuestro perfil y seran los primeros que las personas vean cuando entren a nuestra pagina.
+
+En la imagen de abajo, tenemos los repositorios fijados en el [perfil de GitHub de Bea](https://github.com/beatrizmilz):
+
+![Captura de pantalla - Perfil de Bea - Repositorios fijados](images/profile-pin-bea.png)
 
 Tambien podemos seleccionar que tipo de contribuciones vamos a dejar que otras personas vean. 
 
