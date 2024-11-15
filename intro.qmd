@@ -24,4 +24,35 @@ Probablemente todos lo tenemos, o tuvimos algo así en algún momento, porque ne
 Existe una solución para esto.
 Los sistemas de control de versiones gestionan la evolución y los cambios de un conjunto de archivos que llamaremos **repositorio**.
 Si alguna vez has mirado el historial de un archivo de Google Docs, es así pero de una forma muy controlada.
-Git es un sistema de control de versiones muy popular, pero hay otros.
+
+
+## ¿Qué es Git?
+
+[Git](https://git-scm.com/) es un sistema de control de versiones distribuido que permite a múltiples personas trabajar en un proyecto al mismo tiempo sin sobrescribir el trabajo de los demás.
+Con Git, cada cambio se guarda en un historial, lo que permite volver a versiones anteriores si es necesario.
+Además, facilita la colaboración y la integración de cambios de diferentes colaboradores.
+
+![Captura de pantalla - Git](images/webpage-git.png)
+
+## ¿Qué es GitHub?
+
+[GitHub](https://github.com/) es una plataforma basada en la web que utiliza Git para el control de versiones y la colaboración.
+Permite a los desarrolladores almacenar sus repositorios de Git en la nube, facilitando el acceso y la colaboración desde cualquier lugar.
+GitHub también ofrece herramientas adicionales como gestión de proyectos, seguimiento de problemas (*issues*), y revisión de código.
+
+
+## Beneficios de usar Git y GitHub
+
+- **Colaboración**: Permite a múltiples investigadores trabajar en el mismo proyecto simultáneamente, ideal para colaboraciones entre instituciones o grupos de investigación.
+- **Historial de cambios**: Mantiene un registro detallado de todos los cambios realizados en el proyecto, fundamental para la reproducibilidad científica.
+- **Reversión de cambios**: Facilita la recuperación de versiones anteriores de análisis o manuscritos.
+- **Documentación**: Ayuda a mantener un registro claro de las decisiones metodológicas y cambios en el análisis de datos.
+- **Comunicación**: Mejora la comunicación entre colaboradores y facilita el seguimiento de las contribuciones de cada investigador.
+- **Ciencia abierta**: Promueve la transparencia y reproducibilidad de la investigación, permitiendo compartir código y datos de manera efectiva.
+
+## Conclusión
+
+Git y GitHub son herramientas valiosas para la comunidad científica.
+Aunque originalmente fueron diseñadas para el desarrollo de software, son igualmente útiles para gestionar proyectos de investigación.
+Ya sea que estés trabajando en análisis estadísticos, manuscritos científicos o códigos de procesamiento de datos, estas herramientas te ayudarán a mantener un flujo de trabajo organizado y colaborativo.
+En este taller, aprenderás a utilizar Git y GitHub para mejorar la reproducibilidad y transparencia de tu investigación.
