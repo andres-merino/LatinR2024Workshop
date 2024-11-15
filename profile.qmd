@@ -50,4 +50,34 @@ Cuando termines comparti el link a tu perfil en el chat y en el documento compar
 
 Los perfiles ademas muestran nuestros repositorios y nuestra actividad mas reciente. 
 
+Tambien podemos personalizarlo agregando un resumen de nuestra actividad. 
+
+Podemos seleccionar que mostrar de cada una de estas secciones.  Por ejemplo podemos fijar hasta seis repositorios en nuestro perfil y seran los primeros que las personas vean cuando entren a nuestra pagina.
+
+Tambien podemos seleccionar que tipo de contribuciones vamos a dejar que otras personas vean. 
+
+::: ejercicio
+
+Si tienes repositorios vamos a fijar algunos.  Para eso segui estos pasos:
+
+1. En la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en _Your profile_ (Tu perfil).
+
+2. En la parte de arriba de la sección "Repositorios populares" o "Anclados", haz clic en _Personalizar los anclajes_.
+
+3. Opcionalmente, para cambiar qué elementos se incluyen en la lista en la que se pueden buscar, junto a "Mostrar", selecciona o anula la selección de Repositorios y Gists.
+
+4. Selecciona hasta seis repositorios.
+
+Haga clic en Save pins.
+
+:::
+
+::: ejercicio
+
+Configura como van a aparecer tus contribuciones.  Para eso sigue los siguientes pasos:
+
+
+
+:::
+
 
