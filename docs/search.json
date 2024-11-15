@@ -80,11 +80,121 @@
     ]
   },
   {
+    "objectID": "profile.html",
+    "href": "profile.html",
+    "title": "2  Perfil de GitHub",
+    "section": "",
+    "text": "Crear una cuenta en GitHub\nEn esta leccion vamos a crear una cuenta, si es que no tienes una, revisaremos nuestro perfil en GitHub y aprenderemos a completar informacion importante sobre nuestro trabajo academico y de investigacion.\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "profile.html#crear-una-cuenta-en-github",
+    "href": "profile.html#crear-una-cuenta-en-github",
+    "title": "2  Perfil de GitHub",
+    "section": "",
+    "text": "Ir a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "profile.html#nuestro-perfil",
+    "href": "profile.html#nuestro-perfil",
+    "title": "2  Perfil de GitHub",
+    "section": "2.1 Nuestro perfil",
+    "text": "2.1 Nuestro perfil\nUna vez que creamos una cuenta en GitHub, tenemos nuestro perfil publico en internet.\nLa página de tu perfil cuenta la historia de tu trabajo a través de los repositorios en los que te interesas, las colaboraciones que has realizado y las conversaciones que has tenido.\nSi revisamos el perfil en GitHub de Yanina vamos a ver un par de cosas interesantes en columna izquierda de la página:\n\nInformacion general: llamamos a esto todo lo que aparece debajo de la foto del perfil. Nombre, pronombres y una mini bio. Luego datos de cuantos seguidores tienen y a cuantas personas sigue. Ademas se puede detallar:\n\nLugar de trabajo: @ropensci\nLocalizacion: Santa Rosa, La Pampa, Argentina\nZona horaria: 12:51 (UTC -03:00)\nSitio web: https://yabellini.netlify.app\nORCID: https://orcid.org/0000-0002-4522-7466\nDiversas redes sociales como Mastodon, LinkedIn, BlueSky y Youtube.\n\nNotificaciones y logros: destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.\nOrganizaciones: un listado de las organizaciones que estan presentes en GitHub y de las cuales sos parte. Esto se completa automaticamente, aunque puedes decidir si algunas cosas son visibles o no.\n\n\n\n\nCaptura de pantalla - Perfil de Yani\n\n\n\nEn la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en Your profile (Tu perfil).\nEntra a tu perfil, clique en “Edit Profile”, y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.\nCuando termines comparti el link a tu perfil en el chat y en el documento compartido.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "profile.html#informacion-de-nuestra-actividad",
+    "href": "profile.html#informacion-de-nuestra-actividad",
+    "title": "2  Perfil de GitHub",
+    "section": "2.2 Informacion de nuestra actividad",
+    "text": "2.2 Informacion de nuestra actividad\nLos perfiles ademas muestran nuestros repositorios y nuestra actividad mas reciente. En la imagen de abajo, tenemos las actividades más recientes en el perfil de GitHub de Yani:\n\n\n\nCaptura de pantalla - Perfil de Yani - Actividad mas reciente\n\n\nTambien podemos personalizarlo agregando un resumen de nuestra actividad. En la imagen de abajo, tenemos el resumen del perfil de GitHub de Yani:\n\n\n\nCaptura de pantalla - Perfil de Yani - Resumen\n\n\nPodemos seleccionar que mostrar de cada una de estas secciones. Por ejemplo podemos fijar hasta seis repositorios en nuestro perfil y seran los primeros que las personas vean cuando entren a nuestra pagina. En la imagen de abajo, tenemos los repositorios fijados en el perfil de GitHub de Bea:\n\n\n\nCaptura de pantalla - Perfil de Bea - Repositorios fijados\n\n\nTambien podemos seleccionar que tipo de contribuciones vamos a dejar que otras personas vean.\n\n2.2.1 Este es un desafio opcional\nSi tienes repositorios vamos a fijar algunos. Para eso segui estos pasos:\n\nEn la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en Your profile (Tu perfil).\nEn la parte de arriba de la sección “Repositorios populares” o “Anclados”, haz clic en Personalizar los anclajes.\nOpcionalmente, para cambiar qué elementos se incluyen en la lista en la que se pueden buscar, junto a “Mostrar”, selecciona o anula la selección de Repositorios y Gists.\nSelecciona hasta seis repositorios.\n\nHace clic en Save pins.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "repositories.html",
+    "href": "repositories.html",
+    "title": "3  Repositorios",
+    "section": "",
+    "text": "3.1 Creando un nuevo repositorio\nUn repositorio es el elemento más básico de GitHub. Es un lugar donde se almacena código, datos, otros tipos de archivo y el historial de cambios de cada uno de ellos. Los repositorios pueden contar con múltiples colaboradores y pueden ser públicos como privados.\nHay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o incluso desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+    ]
+  },
+  {
+    "objectID": "repositories.html#creando-un-nuevo-repositorio",
+    "href": "repositories.html#creando-un-nuevo-repositorio",
+    "title": "3  Repositorios",
+    "section": "",
+    "text": "1. Creá un repositorio online.\n\nEntrá en github.com e inicia sesión.\nEn la esquina superior derecha, hacé click en el botón “+” y luego en “New repository”.\n\nA continuación completá la información del repositorio:\n\nRepository template: No template.\nRepository name: como quieras llamar a tu nuevo proyecto.\nDescription: Una descripción breve del proyecto. Escribila para los humanos.\nVisibilidad: Public.\nInitialize this repository with: Add a README file.\nChoose a license: selecciona MIT por ahora.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+    ]
+  },
+  {
+    "objectID": "repositories.html#visibilidad-de-un-repositorio",
+    "href": "repositories.html#visibilidad-de-un-repositorio",
+    "title": "3  Repositorios",
+    "section": "3.2 Visibilidad de un repositorio",
+    "text": "3.2 Visibilidad de un repositorio\nCuando creamos el repositorio seleccionamos que fuera publico, pero a veces vamos a tener proyectos que no pueden ser de acceso abierto, como por ejemplo si tenemos datos relacionados con salud.\nEn ese caso deberemos crearlo privado y darle acceso solo a quienes pueden ver esa informacion.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+    ]
+  },
+  {
+    "objectID": "repositories.html#anatomía-de-un-repositorio-de-github",
+    "href": "repositories.html#anatomía-de-un-repositorio-de-github",
+    "title": "3  Repositorios",
+    "section": "3.3 Anatomía de un repositorio de GitHub",
+    "text": "3.3 Anatomía de un repositorio de GitHub\n\nArchivos README. Utilizá un README.md para explicar de que se trata es tu proyecto y cómo utilizarlo. README.md es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.\nLicencia. La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:\n\nElejí una licencia para proyectos de código.\nLicencias de software en lenguaje sencillo: explica la jerga legal de las licencias en términos sencillos\n\nGuía para colaborar. Un archivo llamado CONTRIBUTING.md que incluye las instrucciones que personas que quieren conlaborar en tu proyecto sepan lo que deben hacer si quieren ayudarte.\nCódigo de conducta. Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. Github tiene atajos para agregar Código de Conducta facilmente.\nIssues. Te permiten gestionar el proyecto, discutir problemas y mejoras con otras personas.\nCitation: este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio.\n\n\n3.3.1 Carpetas\nLos repositorios ademas de archivos pueden contener carpetas, lo que es muy util para mantener nuestra investigacion ordenada.\nLo que cuenta como “organizado” es muy personal, pero lo principal es que la estructura de carpetas y los nombres de los archivos deben ser autodocumentados (entender de que se trata con solo leer el nombre) y deben contener siempre archivos del mismo “tipo”.\nEntonces, coloca tus datos en la carpeta datos, los scripts con el codigo de preprocesamiento en la carpeta scripts o preprocesamiento y tu análisis en la carpeta analisis. Utiliza también subcarpetas, como datos/crudos para guardar los datos originales y datos/derivados para los datos preprocesados y depurados.\nNombrá tus archivos de modo que puedas saber que incluyen aún si pasaron 10 años desde que los creaste.\nUtiliza nombres cortos, descripciones breves de lo que hay dentro.\n\nSi trasbajas con RStudio, es una muy buena idea que el repositorio contenga un proyecto de RStudio, que ayuda a tener todos los elementos de un proyecto de datos ordenados.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+    ]
+  },
+  {
+    "objectID": "repositories.html#agregando-a-nuestro-equipo",
+    "href": "repositories.html#agregando-a-nuestro-equipo",
+    "title": "3  Repositorios",
+    "section": "3.4 Agregando a nuestro equipo",
+    "text": "3.4 Agregando a nuestro equipo\nTodos los repositorios pueden ser utilizado por un grupo de personas. Y cada persona puede tener diferentes permisos para trabajar con el contenido del repositorio.\nPor ejemplo, habra gente que solo puede ver, otra gente que puede escribir y borrar archivos y otras personas que pueden gestionar al equipo de trabajo.\nPara poder invitar a alguien necesitas su usuario de GitHub. Luego sigue estos pasos:\n\nEn el nombre del repositorio, haz clic en Configuración.\nEn la sección “Acceso” de la barra lateral, haz clic en Colaboradores.\nHaz clic en Agregar personas.\nComienza a teclear el nombre de usuario la persona que deseas invitar dentro del campo de búsqueda y seleccionalo de la lista de coincidencias.\nHaga clic en Agregar ese usuario al repositorio.\nEl usuario recibirá un correo electrónico invitándolo al repositorio. Una vez que acepte la invitación, tendrá acceso de colaborador.\n\n\nVamos a agregar como colaboradores del primer repositorio que creamos al menos dos personas del taller.\n\nComparte tu usuario de GitHub en el chat y en el documento compartido.\nSelecciona otras dos personas y agregalas como colaboradores de tu repositorio.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+    ]
+  },
+  {
+    "objectID": "issues.html",
+    "href": "issues.html",
+    "title": "4  Issues",
+    "section": "",
+    "text": "4.1 Usando GitHub Issues para mantener tu proyecto\nTu paquete ahora vive en un repositorio de GitHub, y has creado varios archivos útiles que orientarán a los usuarios y colaboradores de tu proyecto. Ahora bien, ¿cómo sabe alguien que quiere contribuir lo que debería estar haciendo?\nTanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas que tenemos que completar o los problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets. También se les suele llamar sistemas de gestion de errores, pero pueden utilizarse para gestionar diferentes tipos de trabajo.\nGitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.\nEn términos generales, las personas crean tres tipos de issues:\nCuanto más grande o antiguo es un proyecto, más difícil es encontrar cosas, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.\nEn GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son bug (o error), feature (o nueva funcionalidad), question (o pregunta), good first issue (o para principiantes), urgent (o urgente), duplicate (duplicado), entre otros.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issues</span>"
+    ]
+  },
+  {
+    "objectID": "issues.html#usando-github-issues-para-mantener-tu-proyecto",
+    "href": "issues.html#usando-github-issues-para-mantener-tu-proyecto",
+    "title": "4  Issues",
+    "section": "",
+    "text": "Hemos creado issues en sus repositorios durante la cursada. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.\nA pesar que esten cerrados los issues igualmente quedan en el historial de GitHub.\n\n\n\nPara informar sobre errores y describir los problemas que han encontrado.\nPedidos de características o funcionalidades nuevas, como «añadir esta función a este paquete» o “añadir un menú al sitio web”.\nPreguntas sobre el uso del paquete, el funcionamiento de partes del proyecto o su orientación futura.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issues</span>"
+    ]
+  },
+  {
     "objectID": "A_instalacion.html",
     "href": "A_instalacion.html",
     "title": "Apéndice A — Preparando el entorno de trabajo",
     "section": "",
-    "text": "Instalando Git\nGit es una herramienta para control de versiones, vamos a utilizarla para trabajar colaborativamente.\nEn la pagina de Git podemos descargar el instalador para nuestro sistema operativo.\nEn esa misma pagina hay una guia de instalacion para cada sistema operativo en castellano. Sigue las instrucciones detallas en la misma.",
+    "text": "Instalando Git\nEste anexo detalla los pasos a seguir para instalar todo el software que vamos a necesitar para el taller:\nTambien vamos a ver como crear cuentas en las plataformas en la nube que vamos a utilizar:\nGit es una herramienta para control de versiones, vamos a utilizarla para trabajar colaborativamente.\nEn la pagina de Git podemos descargar el instalador para nuestro sistema operativo.\nEn esa misma pagina hay una guia de instalacion para cada sistema operativo en castellano. Sigue las instrucciones detallas en la misma.",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preparando el entorno de trabajo</span>"
@@ -95,7 +205,7 @@
     "href": "A_instalacion.html#crear-una-cuenta-en-github",
     "title": "Apéndice A — Preparando el entorno de trabajo",
     "section": "Crear una cuenta en GitHub",
-    "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software. Vamos a utilizarlo para compartir el codigo que vamos a escribir en la materia.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
+    "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preparando el entorno de trabajo</span>"
