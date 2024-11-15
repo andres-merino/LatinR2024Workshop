@@ -1,5 +1,5 @@
 ---
-title: "Profile"
+title: "Perfil de GitHub"
 ---
 
 En esta leccion vamos a crear una cuenta, si es que no tienes una, revisaremos nuestro perfil en GitHub y aprenderemos a completar informacion importante sobre nuestro trabajo academico y de investigacion. 
