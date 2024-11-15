@@ -13,8 +13,8 @@ book:
     - text: "Informaciones"
       href: index.qmd
     - intro.qmd
-    - repositories.qmd
     - profile.qmd
+    - repositories.qmd
     - issues.qmd
     - projects.qmd
     - collaboration.qmd
