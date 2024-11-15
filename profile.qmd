@@ -37,6 +37,8 @@ Si revisamos [el perfil en GitHub de Yanina](https://github.com/yabellini) vamos
 - _Notificaciones y logros_: destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.
 
 - _Organizaciones_: un listado de las organizaciones que estan presentes en GitHub y de las cuales sos parte.  Esto se completa automaticamente, aunque puedes decidir si algunas cosas son visibles o no.
+
+
 ![Captura de pantalla - Perfil de Yani](images/profile-yani.png){fig-align="center" width="70%"}
 
 ::: ejercicio
