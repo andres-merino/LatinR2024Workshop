@@ -72,14 +72,10 @@ A tener en cuenta!
 Este es un consejo
 :::
 
-
-## Bibliografia 
-
-
-
 ## Fuentes
 
 Este libro utilizo como fuentes los siguientes materiales:
 
-* Research Software Engineering with Python: Building software that makes research possible de Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, y Greg Wilson. Disponible de manera gratuita: https://third-bit.com/py-rse/ 
+* Research Software Engineering with Python: Building software that makes research possible de Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, y Greg Wilson. Disponible de manera gratuita: <https://third-bit.com/py-rse/> 
 
+* Introducción a la Programación II, de Yanina Bellini Saibene y Paola Corrales. Disponible de manera gratuita:  <https://intro-programacion.netlify.app/>
