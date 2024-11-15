@@ -1,3 +1,53 @@
 ---
 title: "Repository"
 ---
+
+## Creando un nuevo repositorio
+
+Hay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub, asociarlo a un proyecto de RStudio y trabajar con él. Pero tené en cuenta que hay muchas otras formas de trabajar con git.
+
+::: ejercicio
+**1. Creá un repositorio online.**
+
+-   Entrá en [github.com](https://github.com) e inicia sesión.
+-   En la esquina superior derecha, hacé click en el botón "+" y luego en "New repository".
+
+A continuación completá la información del repositorio:
+
+-   Repository template: No template.
+-   Repository name: como quieras llamar a tu nuevo proyecto.
+-   Description: Una descripción breve del proyecto. Escribila para los humanos.
+-   Visibilidad: Public.
+-   Initialize this repository with: nada (podemos configurarlo todo desde R).
+
+Antes de volver a RStudio, copia la url del repositorio. Por ejemplo `https://github.com/yabellini/.git`
+:::
+
+## Anatomía de un repositorio de GitHub
+
+-   *Archivos README.* Utilizá un `README.md` para explicar de que se trata es tu proyecto y cómo utilizarlo. `README.md` es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.
+
+-   *Licencia.* La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:
+
+    -   [Elejí una licencia para proyectos de código](https://choosealicense.com/).
+    -   [Licencias de software en lenguaje sencillo](https://tldrlegal.com/): explica la jerga legal de las licencias en términos sencillos
+
+-   *Guía para colaborar.* Un archivo llamado `CONTRIBUTING.md` que incluye las instrucciones que personas que quieren conlaborar en tu proyecto sepan lo que deben hacer si quieren ayudarte.
+
+-   *Código de conducta.* Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. Github tiene atajos para agregar Código de Conducta facilmente.
+
+-   *Issues.* Te permiten gestionar el proyecto, discutir problemas y mejoras con otras personas.
+
+::: ejercicio
+
+Vamos a crear el perfil en GitHub.  Esto va a permitir que las personas te identifiquen mejor en esa plataforma y que vayas teniendo tu portfolio como cientifico/a de datos y desarrollador de software:
+
+Para eso tenes que:
+
+1. Crear un repositorio en tu cuenta con el mismo nombre que tu usuario de github.  Por ejemplo, el usuario de GitHub de Yanina es _yabellini_ entonces el repositorio se tiene que llamar _yabellini_.
+
+2. Agregarle un archivo README.md
+
+3. Pensar en que queres poner en tu perfil y modificar el readme son esa informacion. [Hay listado de ejemplos de diferentes perfiles de GitHub para todos los gustos.](https://zzetao.github.io/awesome-github-profile/)
+
+:::
