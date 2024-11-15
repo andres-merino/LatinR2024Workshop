@@ -36,6 +36,24 @@ En ese caso deberemos crearlo _privado_ y darle acceso solo a quienes pueden ver
 :::
 
 
+::: ejercicio
+
+Para este ejercicio vamos a usar un reporsitorio especial. 
+
+Vamos a crear **el readme de tu perfil en GitHub**. Es lo que aparece al costado de la foto en tu pagina de perfil. 
+
+Esto va a permitir que las personas te identifiquen mejor en esa plataforma y que vayas teniendo tu portfolio como cientifico/a:
+
+Para eso tenes que:
+
+1. Crear un repositorio en tu cuenta con el mismo nombre que tu usuario de github.  Por ejemplo, el usuario de GitHub de Yanina es _yabellini_ entonces el repositorio se tiene que llamar _yabellini_.
+
+2. Agregarle un archivo README.md
+
+3. Pensar en que queres poner en tu perfil y modificar el readme son esa informacion. [Hay listado de ejemplos de diferentes perfiles de GitHub para todos los gustos.](https://zzetao.github.io/awesome-github-profile/)
+
+:::
+
 ## Anatomía de un repositorio de GitHub
 
 -   *Archivos README.* Utilizá un `README.md` para explicar de que se trata es tu proyecto y cómo utilizarlo. `README.md` es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.
@@ -92,18 +110,11 @@ Para poder invitar a alguien necesitas su usuario de GitHub. Luego sigue estos p
 
 ::: ejercicio
 
-Para este ejercicio vamos a usar un reporsitorio especial. 
+Vamos a agregar como colaboradores del primer repositorio que creamos al menos dos personas del taller.
 
-Vamos a crear **el readme de tu perfil en GitHub**. Es lo que aparece al costado de la foto en tu pagina de perfil. 
+1. Comparte tu usuario de GitHub en el chat y en el documento compartido.  
 
-Esto va a permitir que las personas te identifiquen mejor en esa plataforma y que vayas teniendo tu portfolio como cientifico/a:
+2. Selecciona otras dos personas y agregalas como colaboradores de tu repositorio.
 
-Para eso tenes que:
-
-1. Crear un repositorio en tu cuenta con el mismo nombre que tu usuario de github.  Por ejemplo, el usuario de GitHub de Yanina es _yabellini_ entonces el repositorio se tiene que llamar _yabellini_.
-
-2. Agregarle un archivo README.md
-
-3. Pensar en que queres poner en tu perfil y modificar el readme son esa informacion. [Hay listado de ejemplos de diferentes perfiles de GitHub para todos los gustos.](https://zzetao.github.io/awesome-github-profile/)
 
 :::
