@@ -70,6 +70,6 @@ Si tienes repositorios vamos a fijar algunos.  Para eso segui estos pasos:
 
 4. Selecciona hasta seis repositorios.
 
-Haga clic en Save pins.
+Hace clic en Save pins.
 
 :::
