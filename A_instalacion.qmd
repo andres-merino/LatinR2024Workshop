@@ -24,7 +24,7 @@ En esa misma pagina [hay una guia de instalacion para cada sistema operativo en 
 
 ## Crear una cuenta en GitHub {-}
 
-GitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software.  Vamos a utilizarlo para compartir el codigo que vamos a escribir en la materia.
+GitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.  
 
 - Ir a <https://github.com/>.
 

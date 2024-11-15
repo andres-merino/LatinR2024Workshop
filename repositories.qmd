@@ -1,3 +1,120 @@
 ---
-title: "Repository"
+title: "Repositorios"
 ---
+
+Un repositorio es el elemento más básico de GitHub. Es un lugar donde se almacena código, datos, otros tipos de archivo y el historial de cambios de cada uno de ellos. Los repositorios pueden contar con múltiples colaboradores y pueden ser públicos como privados.
+
+## Creando un nuevo repositorio
+
+Hay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o incluso desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub.
+
+::: ejercicio
+**1. Creá un repositorio online.**
+
+-   Entrá en [github.com](https://github.com) e inicia sesión.
+-   En la esquina superior derecha, hacé click en el botón "+" y luego en "New repository".
+
+A continuación completá la información del repositorio:
+
+-   Repository template: No template.
+-   Repository name: como quieras llamar a tu nuevo proyecto.
+-   Description: Una descripción breve del proyecto. Escribila para los humanos.
+-   Visibilidad: Public.
+-   Initialize this repository with: Add a README file.
+-   Choose a license: selecciona MIT por ahora. 
+:::
+
+
+::: importante 
+
+## Visibilidad de un repositorio
+
+Cuando creamos el repositorio seleccionamos que fuera publico, pero a veces vamos a tener proyectos que no pueden ser de acceso abierto, como por ejemplo si tenemos datos relacionados con salud. 
+
+En ese caso deberemos crearlo _privado_ y darle acceso solo a quienes pueden ver esa informacion.
+
+:::
+
+
+::: ejercicio
+
+Para este ejercicio vamos a usar un reporsitorio especial. 
+
+Vamos a crear **el readme de tu perfil en GitHub**. Es lo que aparece al costado de la foto en tu pagina de perfil. 
+
+Esto va a permitir que las personas te identifiquen mejor en esa plataforma y que vayas teniendo tu portfolio como cientifico/a:
+
+Para eso tenes que:
+
+1. Crear un repositorio en tu cuenta con el mismo nombre que tu usuario de github.  Por ejemplo, el usuario de GitHub de Yanina es _yabellini_ entonces el repositorio se tiene que llamar _yabellini_.
+
+2. Agregarle un archivo README.md
+
+3. Pensar en que queres poner en tu perfil y modificar el readme son esa informacion. [Hay listado de ejemplos de diferentes perfiles de GitHub para todos los gustos.](https://zzetao.github.io/awesome-github-profile/)
+
+:::
+
+## Anatomía de un repositorio de GitHub
+
+-   *Archivos README.* Utilizá un `README.md` para explicar de que se trata es tu proyecto y cómo utilizarlo. `README.md` es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.
+
+-   *Licencia.* La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:
+
+    -   [Elejí una licencia para proyectos de código](https://choosealicense.com/).
+    -   [Licencias de software en lenguaje sencillo](https://tldrlegal.com/): explica la jerga legal de las licencias en términos sencillos
+
+-   *Guía para colaborar.* Un archivo llamado `CONTRIBUTING.md` que incluye las instrucciones que personas que quieren conlaborar en tu proyecto sepan lo que deben hacer si quieren ayudarte.
+
+-   *Código de conducta.* Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. Github tiene atajos para agregar Código de Conducta facilmente.
+
+-   *Issues.* Te permiten gestionar el proyecto, discutir problemas y mejoras con otras personas.
+
+-   *Citation*: este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio.
+
+### Carpetas
+
+Los repositorios ademas de archivos pueden contener carpetas, lo que es muy util para mantener nuestra investigacion ordenada.
+
+Lo que cuenta como “organizado” es muy personal, pero lo principal es que la estructura de carpetas y los nombres de los archivos deben ser autodocumentados (entender de que se trata con solo leer el nombre) y deben contener siempre archivos del mismo "tipo". 
+
+Entonces, coloca tus datos en la carpeta `datos`, los scripts con el codigo de preprocesamiento en la carpeta `scripts` o `preprocesamiento` y tu análisis en la carpeta `analisis`. Utiliza también subcarpetas, como `datos/crudos` para guardar los datos originales y `datos/derivados` para los datos preprocesados y depurados.
+
+Nombrá tus archivos de modo que puedas saber que incluyen aún si pasaron 10 años desde que los creaste.
+
+Utiliza nombres cortos, descripciones breves de lo que hay dentro.
+
+::: tip
+Si trasbajas con RStudio, es una muy buena idea que el repositorio contenga un proyecto de RStudio, que ayuda a tener todos los elementos de un proyecto de datos ordenados.
+:::
+
+## Agregando a nuestro equipo
+
+Todos los repositorios pueden ser utilizado por un grupo de personas.  Y cada persona puede tener diferentes permisos para trabajar con el contenido del repositorio.
+
+Por ejemplo, habra gente que solo puede ver, otra gente que puede escribir y borrar archivos y otras personas que pueden gestionar al equipo de trabajo.
+
+Para poder invitar a alguien necesitas su usuario de GitHub. Luego sigue estos pasos:
+
+1. En el nombre del repositorio, haz clic en  _Configuración_.
+
+2. En la sección "Acceso" de la barra lateral, haz clic en  _Colaboradores_.
+
+3. Haz clic en _Agregar personas_.
+
+4. Comienza a teclear el nombre de usuario la persona que deseas invitar dentro del campo de búsqueda y seleccionalo de la lista de coincidencias.
+
+5. Haga clic en Agregar ese usuario al repositorio.
+
+6. El usuario recibirá un correo electrónico invitándolo al repositorio. Una vez que acepte la invitación, tendrá acceso de colaborador.
+
+
+::: ejercicio
+
+Vamos a agregar como colaboradores del primer repositorio que creamos al menos dos personas del taller.
+
+1. Comparte tu usuario de GitHub en el chat y en el documento compartido.  
+
+2. Selecciona otras dos personas y agregalas como colaboradores de tu repositorio.
+
+
+:::
