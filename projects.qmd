@@ -71,13 +71,13 @@ El siguiente paso es añadir contenidos al proyecto.
 
 Para añadir elementos a nuestro proyecto, podemos hacer clic en `+ Add Item` en la parte inferior de la columna donde queremos añadir el elemento.
 
-Podemos añadir un elemento de las siguientes maneras: 
+Podemos añadir un elemento de las siguientes maneras:
 
-- Escribiendo un breve mensaje (que puede ser convertido en una Issue); 
+-   Escribiendo un breve mensaje (que puede ser convertido en una Issue);
 
-- A partir de una Issue existente; 
+-   A partir de una Issue existente;
 
-- A partir de un Pull Request (PR) existente ([hablaremos de PR's en breve](collaboration.qmd), pero es una herramienta importante para la colaboración en proyectos).
+-   A partir de un Pull Request (PR) existente ([hablaremos de PR's en breve](collaboration.qmd), pero es una herramienta importante para la colaboración en proyectos).
 
 Vamos a empezar añadiendo un elemento con un mensaje simple.
 Para ello, hacemos clic en `+ Add Item`, escribimos un breve mensaje sobre la tarea y luego presionamos enter (o hacemos clic en "Create a Draft"):
@@ -91,24 +91,42 @@ Después de elegir el repositorio, GitHub presentará una lista de Issues y Pull
 
 ![Captura de pantalla - Projects - Add item from Issues and Pull Requests](images/projects-add-item-issues-pr.gif)
 
-### Adicionar
+### Complementar los elementos
 
--   Labe
+Cuando creamos Issues y Pull Requests, podemos añadir etiquetas (labels), personas responsables (Assignees), hitos del proyecto (Milestones), entre otros.
 
-::: todo
--   Labels
--   Assignees
--   Milestones
-:::
+Ao adicionar essas informações, elas aparecerão nos itens del proyecto, facilitando la visualización y organización del trabajo.
+
+Veja o exemplo de adicionar labels e responsáveis a uma Pull Request:
+
+![Captura de pantalla - Pull Requests - Add labels and assignees](images/projects-pr.png){fig-align="center" width="50%"}
+
+E então verificar como o item aparece no projeto:
+
+![Captura de pantalla - Projects - Add labels, assignees and milestones](images/projects-pr-item.png){fig-align="center" width="70%"}
+
+Podemos configurar quais são as informações que queremos ver nos itens do projeto (lembre-se de salvar as alterações, clicando em `Save`):
+
+![Captura de pantalla - Projects - Configurar itens](images/projects-config.png){fig-align="center" width="50%"}
 
 ## Projetos Públicos x Privados
 
-::: todo
-...
-:::
+Assim como os repositórios, os projetos podem ser públicos ou privados.
+
+Para alterar a visibilidade de um projeto, no canto superior direito da tela do projeto, clique em `...`, e então em `Settings` para abrir a tela de configurações.
+
+![Captura de pantalla - Projects - Settings](images/projects-settings.png){fig-align="center" width="30%"}
+
+Na tela de configurações, ao final da página, podemos alterar a visibilidade do projeto:
+
+![Captura de pantalla - Projects - Configurar visibilidade](images/projects-visibility.png){fig-align="center" width="100%"}
 
 ## Ejercicio
 
 ::: ejercicio
-....
+
+Cree un proyecto en GitHub, vinculado ao repositorio criado nos exercícios anteriores.
+
+Adicione algumas colunas e itens ao projeto, e explore as funcionalidades disponíveis.
+
 :::
