@@ -61,20 +61,21 @@ Para eso tenes que:
 
 ## Anatomía de un repositorio de GitHub
 
+Un repositorio de GitHub puede contener diferentes tipos de archivos y carpetas:
+
 -   *Archivos README.* Utilizá un `README.md` para explicar de que se trata es tu proyecto y cómo utilizarlo. `README.md` es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.
 
--   *Licencia.* La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:
+-   *Licencia.* Un archivo llamado `LICENSE` que contiene la licencia del proyecto. La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:
 
     -   [Elejí una licencia para proyectos de código](https://choosealicense.com/).
     -   [Licencias de software en lenguaje sencillo](https://tldrlegal.com/): explica la jerga legal de las licencias en términos sencillos
 
 -   *Guía para colaborar.* Un archivo llamado `CONTRIBUTING.md` que incluye las instrucciones que personas que quieren conlaborar en tu proyecto sepan lo que deben hacer si quieren ayudarte.
 
--   *Código de conducta.* Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. Github tiene atajos para agregar Código de Conducta facilmente.
+-   *Código de conducta.* Un archivo llamado `CODE_OF_CONDUCT.md`.
+Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. [GitHub tiene atajos para agregar Código de Conducta facilmente](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project).
 
--   *Issues.* Te permiten gestionar el proyecto, discutir problemas y mejoras con otras personas.
-
--   *Citation*: este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio.
+-   *Citation*: Un archivo llamado `CITATION.cff`. Este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio. [Mas informacion sobre el archivo CITATION.cff](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
 ### Carpetas
 
@@ -100,15 +101,15 @@ Por ejemplo, habra gente que solo puede ver, otra gente que puede escribir y bor
 
 Para poder invitar a alguien necesitas su usuario de GitHub. Luego sigue estos pasos:
 
-1. En el nombre del repositorio, haz clic en  _Configuración_.
+1. En el nombre del repositorio, haz clic en  _Configuración_ (`Settings`).
 
-2. En la sección "Acceso" de la barra lateral, haz clic en  _Colaboradores_.
+2. En la sección "Acceso" de la barra lateral, haz clic en  _Colaboradores_ (`Collaborators and teams`).
 
-3. Haz clic en _Agregar personas_.
+3. Haz clic en _Agregar personas_ (`Add people`).
 
 4. Comienza a teclear el nombre de usuario la persona que deseas invitar dentro del campo de búsqueda y seleccionalo de la lista de coincidencias.
 
-5. Haga clic en Agregar ese usuario al repositorio.
+5. Haga clic en Agregar ese usuario al repositorio (`Add to repository`).
 
 6. El usuario recibirá un correo electrónico invitándolo al repositorio. Una vez que acepte la invitación, tendrá acceso de colaborador.
 
