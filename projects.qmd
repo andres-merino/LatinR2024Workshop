@@ -95,38 +95,38 @@ Después de elegir el repositorio, GitHub presentará una lista de Issues y Pull
 
 Cuando creamos Issues y Pull Requests, podemos añadir etiquetas (labels), personas responsables (Assignees), hitos del proyecto (Milestones), entre otros.
 
-Ao adicionar essas informações, elas aparecerão nos itens del proyecto, facilitando la visualización y organización del trabajo.
+Al añadir esta información, aparecerá en los elementos del proyecto, facilitando la visualización y organización del trabajo.
 
-Veja o exemplo de adicionar labels e responsáveis a uma Pull Request:
+Vea el ejemplo de añadir labels y responsables a un Pull Request:
 
 ![Captura de pantalla - Pull Requests - Add labels and assignees](images/projects-pr.png){fig-align="center" width="50%"}
 
-E então verificar como o item aparece no projeto:
+Y luego verificar cómo el elemento aparece en el proyecto:
 
 ![Captura de pantalla - Projects - Add labels, assignees and milestones](images/projects-pr-item.png){fig-align="center" width="70%"}
 
-Podemos configurar quais são as informações que queremos ver nos itens do projeto (lembre-se de salvar as alterações, clicando em `Save`):
+Podemos configurar qué información queremos ver en los elementos del proyecto (recuerde guardar los cambios haciendo clic en `Save`):
 
-![Captura de pantalla - Projects - Configurar itens](images/projects-config.png){fig-align="center" width="50%"}
+![Captura de pantalla - Projects - Configurar elementos](images/projects-config.png){fig-align="center" width="50%"}
 
-## Projetos Públicos x Privados
+## Proyectos Públicos y Privados
 
-Assim como os repositórios, os projetos podem ser públicos ou privados.
+Al igual que los repositorios, los proyectos pueden ser públicos o privados.
 
-Para alterar a visibilidade de um projeto, no canto superior direito da tela do projeto, clique em `...`, e então em `Settings` para abrir a tela de configurações.
+Para cambiar la visibilidad de un proyecto, en la esquina superior derecha de la pantalla del proyecto, haga clic en `...`, y luego en `Settings` para abrir la pantalla de configuración.
 
 ![Captura de pantalla - Projects - Settings](images/projects-settings.png){fig-align="center" width="30%"}
 
-Na tela de configurações, ao final da página, podemos alterar a visibilidade do projeto:
+En la pantalla de configuración, al final de la página, podemos cambiar la visibilidad del proyecto:
 
-![Captura de pantalla - Projects - Configurar visibilidade](images/projects-visibility.png){fig-align="center" width="100%"}
+![Captura de pantalla - Projects - Configurar visibilidad](images/projects-visibility.png){fig-align="center" width="100%"}
 
 ## Ejercicio
 
 ::: ejercicio
 
-Cree un proyecto en GitHub, vinculado ao repositorio criado nos exercícios anteriores.
+Cree un proyecto en GitHub, vinculado al repositorio creado en los ejercicios anteriores.
 
-Adicione algumas colunas e itens ao projeto, e explore as funcionalidades disponíveis.
+Añada algunas columnas y elementos al proyecto, y explore las funcionalidades disponibles.
 
 :::
