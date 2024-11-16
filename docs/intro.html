@@ -180,8 +180,18 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#por-qué-git" id="toc-por-qué-git" class="nav-link active" data-scroll-target="#por-qué-git"><span class="header-section-number">1.1</span> ¿Por qué git?</a></li>
+  <li><a href="#qué-es-git" id="toc-qué-es-git" class="nav-link" data-scroll-target="#qué-es-git"><span class="header-section-number">1.2</span> ¿Qué es Git?</a></li>
+  <li><a href="#qué-es-github" id="toc-qué-es-github" class="nav-link" data-scroll-target="#qué-es-github"><span class="header-section-number">1.3</span> ¿Qué es GitHub?</a></li>
+  <li><a href="#beneficios-de-usar-git-y-github" id="toc-beneficios-de-usar-git-y-github" class="nav-link" data-scroll-target="#beneficios-de-usar-git-y-github"><span class="header-section-number">1.4</span> Beneficios de usar Git y GitHub</a></li>
+  <li><a href="#conclusión" id="toc-conclusión" class="nav-link" data-scroll-target="#conclusión"><span class="header-section-number">1.5</span> Conclusión</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -205,8 +215,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="por-qué-git" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="por-qué-git"><span class="header-section-number">1.1</span> ¿Por qué git?</h2>
+<p>¿Tenés algo así en tu computadora?</p>
+<pre><code>/home/yani/Documents/Clases/programacion
+├── script.R
+├── tp.Rmd
+├── tp_corregido.Rmd
+├── tp_corregido2.Rmd
+├── tp_final.Rmd
+├── tp_finalfinal.Rmd
+├── este_es_el_final.Rmd
+├── juro_que_esta_es_la_ultima_version_del_tp.Rmd
+└── FINAL.Rmd</code></pre>
+<p>Probablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores. Existe una solución para esto. Los sistemas de control de versiones gestionan la evolución y los cambios de un conjunto de archivos que llamaremos <strong>repositorio</strong>. Si alguna vez has mirado el historial de un archivo de Google Docs, es así pero de una forma muy controlada.</p>
+</section>
+<section id="qué-es-git" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="qué-es-git"><span class="header-section-number">1.2</span> ¿Qué es Git?</h2>
+<p><a href="https://git-scm.com/">Git</a> es un sistema de control de versiones distribuido que permite a múltiples personas trabajar en un proyecto al mismo tiempo sin sobrescribir el trabajo de los demás. Con Git, cada cambio se guarda en un historial, lo que permite volver a versiones anteriores si es necesario. Además, facilita la colaboración y la integración de cambios de diferentes colaboradores.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/webpage-git.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - Git</figcaption>
+</figure>
+</div>
+</section>
+<section id="qué-es-github" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="qué-es-github"><span class="header-section-number">1.3</span> ¿Qué es GitHub?</h2>
+<p><a href="https://github.com/">GitHub</a> es una plataforma basada en la web que utiliza Git para el control de versiones y la colaboración. Permite a los desarrolladores almacenar sus repositorios de Git en la nube, facilitando el acceso y la colaboración desde cualquier lugar. GitHub también ofrece herramientas adicionales como gestión de proyectos, seguimiento de problemas (<em>issues</em>), y revisión de código.</p>
+</section>
+<section id="beneficios-de-usar-git-y-github" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="beneficios-de-usar-git-y-github"><span class="header-section-number">1.4</span> Beneficios de usar Git y GitHub</h2>
+<ul>
+<li><strong>Colaboración</strong>: Permite a múltiples investigadores trabajar en el mismo proyecto simultáneamente, ideal para colaboraciones entre instituciones o grupos de investigación.</li>
+<li><strong>Historial de cambios</strong>: Mantiene un registro detallado de todos los cambios realizados en el proyecto, fundamental para la reproducibilidad científica.</li>
+<li><strong>Reversión de cambios</strong>: Facilita la recuperación de versiones anteriores de análisis o manuscritos.</li>
+<li><strong>Documentación</strong>: Ayuda a mantener un registro claro de las decisiones metodológicas y cambios en el análisis de datos.</li>
+<li><strong>Comunicación</strong>: Mejora la comunicación entre colaboradores y facilita el seguimiento de las contribuciones de cada investigador.</li>
+<li><strong>Ciencia abierta</strong>: Promueve la transparencia y reproducibilidad de la investigación, permitiendo compartir código y datos de manera efectiva.</li>
+</ul>
+</section>
+<section id="conclusión" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="conclusión"><span class="header-section-number">1.5</span> Conclusión</h2>
+<p>Git y GitHub son herramientas valiosas para la comunidad científica. Aunque originalmente fueron diseñadas para el desarrollo de software, son igualmente útiles para gestionar proyectos de investigación. Ya sea que estés trabajando en análisis estadísticos, manuscritos científicos o códigos de procesamiento de datos, estas herramientas te ayudarán a mantener un flujo de trabajo organizado y colaborativo. En este taller, aprenderás a utilizar Git y GitHub para mejorar la reproducibilidad y transparencia de tu investigación.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

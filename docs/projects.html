@@ -180,8 +180,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#qué-son-los-proyectos-de-github" id="toc-qué-son-los-proyectos-de-github" class="nav-link active" data-scroll-target="#qué-son-los-proyectos-de-github"><span class="header-section-number">5.1</span> ¿Qué son los proyectos de GitHub?</a></li>
+  <li><a href="#creando-un-proyecto-en-github" id="toc-creando-un-proyecto-en-github" class="nav-link" data-scroll-target="#creando-un-proyecto-en-github"><span class="header-section-number">5.2</span> Creando un proyecto en GitHub</a></li>
+  <li><a href="#añadir-columnas" id="toc-añadir-columnas" class="nav-link" data-scroll-target="#añadir-columnas"><span class="header-section-number">5.3</span> Añadir columnas</a></li>
+  <li><a href="#añadir-elementos" id="toc-añadir-elementos" class="nav-link" data-scroll-target="#añadir-elementos"><span class="header-section-number">5.4</span> Añadir elementos</a>
+  <ul class="collapse">
+  <li><a href="#complementar-los-elementos" id="toc-complementar-los-elementos" class="nav-link" data-scroll-target="#complementar-los-elementos"><span class="header-section-number">5.4.1</span> Complementar los elementos</a></li>
+  </ul></li>
+  <li><a href="#proyectos-públicos-y-privados" id="toc-proyectos-públicos-y-privados" class="nav-link" data-scroll-target="#proyectos-públicos-y-privados"><span class="header-section-number">5.5</span> Proyectos Públicos y Privados</a></li>
+  <li><a href="#ejercicio" id="toc-ejercicio" class="nav-link" data-scroll-target="#ejercicio"><span class="header-section-number">5.6</span> Ejercicio</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -205,8 +219,158 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="qué-son-los-proyectos-de-github" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="qué-son-los-proyectos-de-github"><span class="header-section-number">5.1</span> ¿Qué son los proyectos de GitHub?</h2>
+<p>Los proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).</p>
+<div class="todo">
+<p>Adicionar uma imagem ilustrativa.</p>
+</div>
+<p>Los proyectos forman parte de una cuenta (personal u organización). Un proyecto no “pertenece” a un repositorio, sino que está vinculado a uno. Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.</p>
+</section>
+<section id="creando-un-proyecto-en-github" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="creando-un-proyecto-en-github"><span class="header-section-number">5.2</span> Creando un proyecto en GitHub</h2>
+<p>Los proyectos pueden ser creados vinculados a un repositorio utilizando la pestaña “Projects”, y luego “New Project”. También es posible vincular un proyecto existente a un repositorio.</p>
+<p>En el siguiente ejemplo, vamos a crear un nuevo proyecto vinculado al repositorio:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-repository-create-1.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - GitHub Projects - Create</figcaption>
+</figure>
+</div>
+<p>El siguiente paso es elegir una plantilla inicial. Recomendamos comenzar con “Planificación del equipo”, ¡pero puedes explorar otras plantillas después!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-create-choose-template.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - GitHub Projects - Choose template</figcaption>
+</figure>
+</div>
+<p>Después debemos añadir un nombre al proyecto, y luego hacer clic en “Create project”:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-name.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - GitHub Projects - Naming the project</figcaption>
+</figure>
+</div>
+<p>¡Tenemos un proyecto creado!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-created.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - GitHub Projects - Project created</figcaption>
+</figure>
+</div>
+<p>Vamos explorar un poco cómo trabajar con este proyecto.</p>
+</section>
+<section id="añadir-columnas" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="añadir-columnas"><span class="header-section-number">5.3</span> Añadir columnas</h2>
+<p>Usando la plantilla elegida, comenzamos con 3 columnas: To do (por hacer), Doing (en progreso), Done (hecho).</p>
+<p>Este formato es conocido como Kanban, y es muy útil para visualizar el flujo de trabajo y el estado de las tareas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/kanban-ejemplo.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Ejemplo de tablero Kanban</figcaption>
+</figure>
+</div>
+<p>Si estas columnas no son suficientes, podemos crear nuevas columnas usando el botón de <code>+</code>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-new-column-1.png" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Captura de pantalla - Projects - Ejemplo de añadir columna</figcaption>
+</figure>
+</div>
+<p>Podemos configurar algunos elementos para la columna, como: nombre (Label text), color (Color) y descripción (Description):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-new-column-2.png" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Captura de pantalla - Projects - Configurar columna</figcaption>
+</figure>
+</div>
+<p>¡Ahora la columna está creada! <img src="images/projects-new-column-3.png" class="img-fluid" alt="Captura de pantalla - Projects - Configurar columna"></p>
+<p>Sin embargo, tiene más sentido que sea la primera columna presentada. Podemos mover la columna arrastrándola.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/project-column-move.gif" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - Projects - Move columns</figcaption>
+</figure>
+</div>
+<p>El siguiente paso es añadir contenidos al proyecto.</p>
+</section>
+<section id="añadir-elementos" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="añadir-elementos"><span class="header-section-number">5.4</span> Añadir elementos</h2>
+<p>Para añadir elementos a nuestro proyecto, podemos hacer clic en <code>+ Add Item</code> en la parte inferior de la columna donde queremos añadir el elemento.</p>
+<p>Podemos añadir un elemento de las siguientes maneras:</p>
+<ul>
+<li><p>Escribiendo un breve mensaje (que puede ser convertido en una Issue);</p></li>
+<li><p>A partir de una Issue existente;</p></li>
+<li><p>A partir de un Pull Request (PR) existente (<a href="./collaboration.html">hablaremos de PR’s en breve</a>, pero es una herramienta importante para la colaboración en proyectos).</p></li>
+</ul>
+<p>Vamos a empezar añadiendo un elemento con un mensaje simple. Para ello, hacemos clic en <code>+ Add Item</code>, escribimos un breve mensaje sobre la tarea y luego presionamos enter (o hacemos clic en “Create a Draft”):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-add-item-text.gif" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - Projects - Add item</figcaption>
+</figure>
+</div>
+<p>Otra forma de añadir elementos es agregar una Issue o Pull Request existente. Para ello, hacemos clic en <code>+ Add Item</code>, y en la caja de mensajes escribimos <code>#</code>. GitHub nos ofrecerá algunas opciones de repositorio, y debemos elegir el repositorio donde se encuentra la Issue/Pull Request que queremos añadir. Después de elegir el repositorio, GitHub presentará una lista de Issues y Pull Requests que podemos seleccionar para añadir al proyecto.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-add-item-issues-pr.gif" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - Projects - Add item from Issues and Pull Requests</figcaption>
+</figure>
+</div>
+<section id="complementar-los-elementos" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="complementar-los-elementos"><span class="header-section-number">5.4.1</span> Complementar los elementos</h3>
+<p>Cuando creamos Issues y Pull Requests, podemos añadir etiquetas (labels), personas responsables (Assignees), hitos del proyecto (Milestones), entre otros.</p>
+<p>Al añadir esta información, aparecerá en los elementos del proyecto, facilitando la visualización y organización del trabajo.</p>
+<p>Vea el ejemplo de añadir labels y responsables a un Pull Request:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-pr.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Captura de pantalla - Pull Requests - Add labels and assignees</figcaption>
+</figure>
+</div>
+<p>Y luego verificar cómo el elemento aparece en el proyecto:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-pr-item.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Captura de pantalla - Projects - Add labels, assignees and milestones</figcaption>
+</figure>
+</div>
+<p>Podemos configurar qué información queremos ver en los elementos del proyecto (recuerde guardar los cambios haciendo clic en <code>Save</code>):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-config.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Captura de pantalla - Projects - Configurar elementos</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="proyectos-públicos-y-privados" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="proyectos-públicos-y-privados"><span class="header-section-number">5.5</span> Proyectos Públicos y Privados</h2>
+<p>Al igual que los repositorios, los proyectos pueden ser públicos o privados.</p>
+<p>Para cambiar la visibilidad de un proyecto, en la esquina superior derecha de la pantalla del proyecto, haga clic en <code>...</code>, y luego en <code>Settings</code> para abrir la pantalla de configuración.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-settings.png" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Captura de pantalla - Projects - Settings</figcaption>
+</figure>
+</div>
+<p>En la pantalla de configuración, al final de la página, podemos cambiar la visibilidad del proyecto:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/projects-visibility.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Captura de pantalla - Projects - Configurar visibilidad</figcaption>
+</figure>
+</div>
+</section>
+<section id="ejercicio" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="ejercicio"><span class="header-section-number">5.6</span> Ejercicio</h2>
+<div class="ejercicio">
+<p>Cree un proyecto en GitHub, vinculado al repositorio creado en los ejercicios anteriores.</p>
+<p>Añada algunas columnas y elementos al proyecto, y explore las funcionalidades disponibles.</p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
