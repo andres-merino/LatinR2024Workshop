@@ -33,8 +33,8 @@ format:
     mainfont: Noto Sans
     monofont: Source Code Pro
     author-meta: "Beatriz Milz y Yanina Bellini Saibene"
-  pdf:
-    documentclass: scrreprt
+  # pdf:
+  #   documentclass: scrreprt
 
 lang: es
 
