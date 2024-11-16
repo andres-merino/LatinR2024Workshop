@@ -1,3 +1,132 @@
 ---
 title: "Projects"
+editor: 
+  markdown: 
+    wrap: sentence
 ---
+
+## ¿Qué son los proyectos de GitHub?
+
+Los proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).
+
+::: todo
+Adicionar uma imagem ilustrativa.
+:::
+
+Los proyectos forman parte de una cuenta (personal u organización).
+Un proyecto no "pertenece" a un repositorio, sino que está vinculado a uno.
+Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.
+
+## Creando un proyecto en GitHub
+
+Los proyectos pueden ser creados vinculados a un repositorio utilizando la pestaña "Projects", y luego "New Project".
+También es posible vincular un proyecto existente a un repositorio.
+
+En el siguiente ejemplo, vamos a crear un nuevo proyecto vinculado al repositorio:
+
+![Captura de pantalla - GitHub Projects - Create](images/projects-repository-create-1.png)
+
+El siguiente paso es elegir una plantilla inicial.
+Recomendamos comenzar con "Planificación del equipo", ¡pero puedes explorar otras plantillas después!
+
+![Captura de pantalla - GitHub Projects - Choose template](images/projects-create-choose-template.png)
+
+Después debemos añadir un nombre al proyecto, y luego hacer clic en "Create project":
+
+![Captura de pantalla - GitHub Projects - Naming the project](images/projects-name.png)
+
+¡Tenemos un proyecto creado!
+
+![Captura de pantalla - GitHub Projects - Project created](images/projects-created.png)
+
+Vamos explorar un poco cómo trabajar con este proyecto.
+
+## Añadir columnas
+
+Usando la plantilla elegida, comenzamos con 3 columnas: To do (por hacer), Doing (en progreso), Done (hecho).
+
+Este formato es conocido como Kanban, y es muy útil para visualizar el flujo de trabajo y el estado de las tareas.
+
+![Ejemplo de tablero Kanban](images/kanban-ejemplo.png){width="50%"}
+
+Si estas columnas no son suficientes, podemos crear nuevas columnas usando el botón de `+`:
+
+![Captura de pantalla - Projects - Ejemplo de añadir columna](images/projects-new-column-1.png){fig-align="center" width="30%"}
+
+Podemos configurar algunos elementos para la columna, como: nombre (Label text), color (Color) y descripción (Description):
+
+![Captura de pantalla - Projects - Configurar columna](images/projects-new-column-2.png){fig-align="center" width="30%"}
+
+¡Ahora la columna está creada!
+![Captura de pantalla - Projects - Configurar columna](images/projects-new-column-3.png)
+
+Sin embargo, tiene más sentido que sea la primera columna presentada.
+Podemos mover la columna arrastrándola.
+
+![Captura de pantalla - Projects - Move columns](images/project-column-move.gif)
+
+El siguiente paso es añadir contenidos al proyecto.
+
+## Añadir elementos
+
+Para añadir elementos a nuestro proyecto, podemos hacer clic en `+ Add Item` en la parte inferior de la columna donde queremos añadir el elemento.
+
+Podemos añadir un elemento de las siguientes maneras:
+
+-   Escribiendo un breve mensaje (que puede ser convertido en una Issue);
+
+-   A partir de una Issue existente;
+
+-   A partir de un Pull Request (PR) existente ([hablaremos de PR's en breve](collaboration.qmd), pero es una herramienta importante para la colaboración en proyectos).
+
+Vamos a empezar añadiendo un elemento con un mensaje simple.
+Para ello, hacemos clic en `+ Add Item`, escribimos un breve mensaje sobre la tarea y luego presionamos enter (o hacemos clic en "Create a Draft"):
+
+![Captura de pantalla - Projects - Add item](images/projects-add-item-text.gif)
+
+Otra forma de añadir elementos es agregar una Issue o Pull Request existente.
+Para ello, hacemos clic en `+ Add Item`, y en la caja de mensajes escribimos `#`.
+GitHub nos ofrecerá algunas opciones de repositorio, y debemos elegir el repositorio donde se encuentra la Issue/Pull Request que queremos añadir.
+Después de elegir el repositorio, GitHub presentará una lista de Issues y Pull Requests que podemos seleccionar para añadir al proyecto.
+
+![Captura de pantalla - Projects - Add item from Issues and Pull Requests](images/projects-add-item-issues-pr.gif)
+
+### Complementar los elementos
+
+Cuando creamos Issues y Pull Requests, podemos añadir etiquetas (labels), personas responsables (Assignees), hitos del proyecto (Milestones), entre otros.
+
+Al añadir esta información, aparecerá en los elementos del proyecto, facilitando la visualización y organización del trabajo.
+
+Vea el ejemplo de añadir labels y responsables a un Pull Request:
+
+![Captura de pantalla - Pull Requests - Add labels and assignees](images/projects-pr.png){fig-align="center" width="50%"}
+
+Y luego verificar cómo el elemento aparece en el proyecto:
+
+![Captura de pantalla - Projects - Add labels, assignees and milestones](images/projects-pr-item.png){fig-align="center" width="70%"}
+
+Podemos configurar qué información queremos ver en los elementos del proyecto (recuerde guardar los cambios haciendo clic en `Save`):
+
+![Captura de pantalla - Projects - Configurar elementos](images/projects-config.png){fig-align="center" width="50%"}
+
+## Proyectos Públicos y Privados
+
+Al igual que los repositorios, los proyectos pueden ser públicos o privados.
+
+Para cambiar la visibilidad de un proyecto, en la esquina superior derecha de la pantalla del proyecto, haga clic en `...`, y luego en `Settings` para abrir la pantalla de configuración.
+
+![Captura de pantalla - Projects - Settings](images/projects-settings.png){fig-align="center" width="30%"}
+
+En la pantalla de configuración, al final de la página, podemos cambiar la visibilidad del proyecto:
+
+![Captura de pantalla - Projects - Configurar visibilidad](images/projects-visibility.png){fig-align="center" width="100%"}
+
+## Ejercicio
+
+::: ejercicio
+
+Cree un proyecto en GitHub, vinculado al repositorio creado en los ejercicios anteriores.
+
+Añada algunas columnas y elementos al proyecto, y explore las funcionalidades disponibles.
+
+:::
