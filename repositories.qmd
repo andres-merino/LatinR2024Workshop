@@ -12,16 +12,19 @@ Hay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora 
 **1. Creá un repositorio online.**
 
 -   Entrá en [github.com](https://github.com) e inicia sesión.
--   En la esquina superior derecha, hacé click en el botón "+" y luego en "New repository".
+-   En la esquina superior derecha, hacé click en el botón "+" y luego en ["New repository"](https://github.com/new).
 
 A continuación completá la información del repositorio:
 
--   Repository template: No template.
--   Repository name: como quieras llamar a tu nuevo proyecto.
--   Description: Una descripción breve del proyecto. Escribila para los humanos.
--   Visibilidad: Public.
--   Initialize this repository with: Add a README file.
--   Choose a license: selecciona MIT por ahora. 
+-   **Repository template:** No template.
+-   **Repository name:** como quieras llamar a tu nuevo proyecto.
+-   **Description:** Una descripción breve del proyecto. Escribila para los humanos.
+-   **Visibilidad:** Public.
+-   **Initialize this repository with:** Add a README file.
+-   **Choose a license:** selecciona MIT por ahora. 
+
+![Captura de pantalla - Create a new repository](images/repositories-new.png)
+
 :::
 
 
@@ -31,7 +34,9 @@ A continuación completá la información del repositorio:
 
 Cuando creamos el repositorio seleccionamos que fuera publico, pero a veces vamos a tener proyectos que no pueden ser de acceso abierto, como por ejemplo si tenemos datos relacionados con salud. 
 
-En ese caso deberemos crearlo _privado_ y darle acceso solo a quienes pueden ver esa informacion.
+En ese caso deberemos crearlo _privado_ y darle acceso solo a quienes pueden ver esa informacion:
+
+![Captura de pantalla - Create a new repository - Visibility options](images/repositories-visibility.png)
 
 :::
 
