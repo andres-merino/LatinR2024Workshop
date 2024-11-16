@@ -225,23 +225,35 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>1. Creá un repositorio online.</strong></p>
 <ul>
 <li>Entrá en <a href="https://github.com">github.com</a> e inicia sesión.</li>
-<li>En la esquina superior derecha, hacé click en el botón “+” y luego en “New repository”.</li>
+<li>En la esquina superior derecha, hacé click en el botón “+” y luego en <a href="https://github.com/new">“New repository”</a>.</li>
 </ul>
 <p>A continuación completá la información del repositorio:</p>
 <ul>
-<li>Repository template: No template.</li>
-<li>Repository name: como quieras llamar a tu nuevo proyecto.</li>
-<li>Description: Una descripción breve del proyecto. Escribila para los humanos.</li>
-<li>Visibilidad: Public.</li>
-<li>Initialize this repository with: Add a README file.</li>
-<li>Choose a license: selecciona MIT por ahora.</li>
+<li><strong>Repository template:</strong> No template.</li>
+<li><strong>Repository name:</strong> como quieras llamar a tu nuevo proyecto.</li>
+<li><strong>Description:</strong> Una descripción breve del proyecto. Escribila para los humanos.</li>
+<li><strong>Visibilidad:</strong> Public.</li>
+<li><strong>Initialize this repository with:</strong> Add a README file.</li>
+<li><strong>Choose a license:</strong> selecciona MIT por ahora.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/repositories-new.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - Create a new repository</figcaption>
+</figure>
+</div>
 </div>
 </section>
 <section id="visibilidad-de-un-repositorio" class="level2 importante" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="visibilidad-de-un-repositorio"><span class="header-section-number">3.2</span> Visibilidad de un repositorio</h2>
 <p>Cuando creamos el repositorio seleccionamos que fuera publico, pero a veces vamos a tener proyectos que no pueden ser de acceso abierto, como por ejemplo si tenemos datos relacionados con salud.</p>
-<p>En ese caso deberemos crearlo <em>privado</em> y darle acceso solo a quienes pueden ver esa informacion.</p>
+<p>En ese caso deberemos crearlo <em>privado</em> y darle acceso solo a quienes pueden ver esa informacion:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/repositories-visibility.png" class="img-fluid figure-img"></p>
+<figcaption>Captura de pantalla - Create a new repository - Visibility options</figcaption>
+</figure>
+</div>
 </section>
 <div class="ejercicio">
 <p>Para este ejercicio vamos a usar un reporsitorio especial.</p>
@@ -256,17 +268,17 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="anatomía-de-un-repositorio-de-github" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="anatomía-de-un-repositorio-de-github"><span class="header-section-number">3.3</span> Anatomía de un repositorio de GitHub</h2>
+<p>Un repositorio de GitHub puede contener diferentes tipos de archivos y carpetas:</p>
 <ul>
 <li><p><em>Archivos README.</em> Utilizá un <code>README.md</code> para explicar de que se trata es tu proyecto y cómo utilizarlo. <code>README.md</code> es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.</p></li>
-<li><p><em>Licencia.</em> La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:</p>
+<li><p><em>Licencia.</em> Un archivo llamado <code>LICENSE</code> que contiene la licencia del proyecto. La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:</p>
 <ul>
 <li><a href="https://choosealicense.com/">Elejí una licencia para proyectos de código</a>.</li>
 <li><a href="https://tldrlegal.com/">Licencias de software en lenguaje sencillo</a>: explica la jerga legal de las licencias en términos sencillos</li>
 </ul></li>
 <li><p><em>Guía para colaborar.</em> Un archivo llamado <code>CONTRIBUTING.md</code> que incluye las instrucciones que personas que quieren conlaborar en tu proyecto sepan lo que deben hacer si quieren ayudarte.</p></li>
-<li><p><em>Código de conducta.</em> Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. Github tiene atajos para agregar Código de Conducta facilmente.</p></li>
-<li><p><em>Issues.</em> Te permiten gestionar el proyecto, discutir problemas y mejoras con otras personas.</p></li>
-<li><p><em>Citation</em>: este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio.</p></li>
+<li><p><em>Código de conducta.</em> Un archivo llamado <code>CODE_OF_CONDUCT.md</code>. Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project">GitHub tiene atajos para agregar Código de Conducta facilmente</a>.</p></li>
+<li><p><em>Citation</em>: Un archivo llamado <code>CITATION.cff</code>. Este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio. <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files">Mas informacion sobre el archivo CITATION.cff</a></p></li>
 </ul>
 <section id="carpetas" class="level3" data-number="3.3.1">
 <h3 data-number="3.3.1" class="anchored" data-anchor-id="carpetas"><span class="header-section-number">3.3.1</span> Carpetas</h3>
@@ -286,11 +298,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Por ejemplo, habra gente que solo puede ver, otra gente que puede escribir y borrar archivos y otras personas que pueden gestionar al equipo de trabajo.</p>
 <p>Para poder invitar a alguien necesitas su usuario de GitHub. Luego sigue estos pasos:</p>
 <ol type="1">
-<li><p>En el nombre del repositorio, haz clic en <em>Configuración</em>.</p></li>
-<li><p>En la sección “Acceso” de la barra lateral, haz clic en <em>Colaboradores</em>.</p></li>
-<li><p>Haz clic en <em>Agregar personas</em>.</p></li>
+<li><p>En el nombre del repositorio, haz clic en <em>Configuración</em> (<code>Settings</code>).</p></li>
+<li><p>En la sección “Acceso” de la barra lateral, haz clic en <em>Colaboradores</em> (<code>Collaborators and teams</code>).</p></li>
+<li><p>Haz clic en <em>Agregar personas</em> (<code>Add people</code>).</p></li>
 <li><p>Comienza a teclear el nombre de usuario la persona que deseas invitar dentro del campo de búsqueda y seleccionalo de la lista de coincidencias.</p></li>
-<li><p>Haga clic en Agregar ese usuario al repositorio.</p></li>
+<li><p>Haga clic en Agregar ese usuario al repositorio (<code>Add to repository</code>).</p></li>
 <li><p>El usuario recibirá un correo electrónico invitándolo al repositorio. Una vez que acepte la invitación, tendrá acceso de colaborador.</p></li>
 </ol>
 <div class="ejercicio">
