@@ -1,3 +1,89 @@
 ---
-title: "Collaboration"
+title: "Colaboración"
+# Forking repositories, and contributions using pull requests. 
 ---
+
+## Introducción a la colaboración
+
+La colaboración es uno de los aspectos más importantes de GitHub.
+La plataforma ofrece varias herramientas que facilitan el trabajo en equipo y la contribución a proyectos de otros investigadores.
+
+Existen dos formas principales de colaborar en GitHub:
+
+1. **Colaboración directa** (con permisos de escritura): Cuando tenemos permisos de edición en el repositorio.
+
+2. **Colaboración mediante fork** (sin permisos de escritura): Cuando queremos contribuir a proyectos de terceros y no tenemos permisos de edición en el repositorio.
+
+
+En este tutorial nos centraremos principalmente en la colaboración mediante fork, 
+ya que es la forma un poco más compleja,
+y la mayoría de los conceptos aprendidos servirán para ambas formas de colaboración.
+
+## Fork de repositorios
+
+Un *fork* es una copia personal de un repositorio de otra persona u organización.
+Al hacer fork de un repositorio, creamos una copia exacta en nuestra cuenta de GitHub, lo que nos permite:
+
+- Experimentar con cambios sin afectar el proyecto original
+- Proponer cambios al proyecto original
+- Usar el proyecto como punto de partida para nuestras propias ideas
+
+### Cómo hacer un fork
+
+1. Navegar al repositorio que queremos copiar
+2. Hacer clic en el botón "Fork" en la esquina superior derecha
+3. Seleccionar nuestra cuenta como destino del fork
+
+![Captura de pantalla - Fork de un repositorio](images/fork-repository.png)
+
+## Ramas (Branches)
+
+Las ramas nos permiten desarrollar funcionalidades aisladas del código principal.
+Conceptos importantes:
+
+- `main`: la rama principal del proyecto
+- Nueva rama: espacio seguro para hacer cambios
+- Los cambios en una rama no afectan a las demás
+
+### Crear una nueva rama
+
+1. En nuestro fork, hacer clic en el menú de ramas
+2. Escribir el nombre de la nueva rama
+3. Seleccionar "Create branch"
+
+## Pull Requests
+
+Un Pull Request (PR) es la forma de proponer cambios a un repositorio. Pasos básicos:
+
+1. Hacer cambios en nuestra rama
+2. Crear un Pull Request
+3. Discutir los cambios propuestos
+4. Incorporar los cambios al proyecto original
+
+### Crear un Pull Request
+
+1. Ir a la pestaña "Pull requests"
+2. Hacer clic en "New Pull Request"
+3. Seleccionar las ramas a comparar
+4. Describir los cambios propuestos
+5. Crear el Pull Request
+
+![Captura de pantalla - Crear Pull Request](images/create-pr.png)
+
+## Buenas prácticas de colaboración
+
+- Mantener los cambios pequeños y focalizados
+- Escribir descripciones claras
+- Responder a los comentarios de revisión
+- Mantener el fork actualizado con el repositorio original
+
+## Ejercicio práctico
+
+::: {.callout-tip}
+## Actividad
+
+1. Hacer fork de [este repositorio del curso](https://github.com/Git4Researchers/LatinR2024Workshop)
+2. Crear una rama nueva
+3. Realizar un cambio pequeño: agregar tu nombre en el [archivo README, donde tenemos la lista de participantes](https://github.com/Git4Researchers/LatinR2024Workshop/blob/main/README.md#participantes)
+4. Crear un Pull Request para el repositorio del curso
+:::
