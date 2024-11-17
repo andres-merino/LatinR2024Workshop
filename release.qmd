@@ -1,3 +1,30 @@
 ---
-title: "Releases"
+title: "Versiones"
 ---
+
+Nuestros proyectos de invetigacion tienen muchos resultados. Muchas veces estos resultados no terminan en una publicacion, si no en otro tipo de artefactos que pueden ser muy utiles para vos y otros equipos.  
+
+Por ejemplo conjunto de datos, materiales de clase y software.
+
+GitHub esta optimizado para trabajar con codigo pero tambien nos permite publicar otro tipo de contenido como el que mencionamos.
+
+Ademas nos permite vincularlo con [Zenodo](https://zenodo.org) nos permite depositarlo en ese archivo y obtener un DOI para poder citarlo. 
+
+Ademas Zenodo lleva estadistivas de vistas y descargas de cada elemento que depositamos.
+
+## Que son las versiones
+
+En ocasiones, estos artefactos van a cambiar con el tiempo, por ejemplo mejoramos nuestro software o agregamos mas casos a nuestro conjunto de datos.
+
+Para poder tener un registro de las diferentes versiones de nuestros contenidos en GitHub existen los _release_ o una nueva version de ese material.  
+
+::: tip
+
+En software el _release_ o las versiones estan dadas por esta nomenclatura: v.1.0 o v.2.5, que se lee version uno punto cero, o version dos punto cinco.  Indicando que el software a tenido cambios mayores (cambia el numero adelante del punto) y algunos menores (cambia el numero detras del punto).
+
+:::
+
+Es interesante saber con que version de un software o datos estamos trabajando porque eso nos ayudara a realizar nuestro trabajo de forma mas reproducible.
+
+## Como versionamos nuestro material.
+
