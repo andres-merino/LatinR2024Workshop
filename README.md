@@ -32,4 +32,12 @@ Deberán tener Git instalado y una cuenta de GitHub creada antes del taller.
 **Yanina Bellini Saibene** - Yani es una GitHub Star desde 2022. Es Community Manager de rOpenSci, Líder del Proyecto R-Ladies y Vicepresidenta de la Junta Directiva de The Carpentries. Vive en Argentina y es profesora en la Universidad Austral (Argentina). Es organizadora de R-Ladies Santa Rosa y cofundadora y co-presidenta de LatinR. Yani es también formadora e instructora certificada por Posit y The Carpentries.
 
 
+### Participantes
 
+En la actividad de [Colaboración](https://git4researchers.github.io/LatinR2024Workshop/collaboration.html), es necesario añadir los nombres de las personas participantes en una lista. Siga el ejemplo, añadiendo su nombre y la URL de su perfil de GitHub como un enlace:
+- [Beatriz Milz](https://github.com/beatrizmilz)
+- [Yanina Bellini Saibene](https://github.com/yabellini)
+
+
+Participantes:
+- []()
