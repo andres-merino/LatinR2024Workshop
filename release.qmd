@@ -28,3 +28,17 @@ Es interesante saber con que version de un software o datos estamos trabajando p
 
 ## Como versionamos nuestro material.
 
+Para crear una nueva version (a veces se le dice lanzamiento) en GitHub, se debe:
+
+1. Ir a la página principal del repositorio
+
+2. Hacer clic en _Releases_ a la derecha de la lista de archivos
+
+3. Hacer clic en Borrador de una versión nueva en la parte superior de la página
+
+4. Elegir una etiqueta para la versión
+
+5. Si se quiere crear una etiqueta, escribir un número para la versión y hacer clic en Crear etiqueta
+
+
+## Tres simples pasos para compartir nuestro material
