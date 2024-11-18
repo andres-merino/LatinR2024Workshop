@@ -40,4 +40,4 @@ En la actividad de [Colaboración](https://git4researchers.github.io/LatinR2024W
 
 
 Participantes:
-- []()
+- [Andrés Merino](https://github.com/andres-merino)
