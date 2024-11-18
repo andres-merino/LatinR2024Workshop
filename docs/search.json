@@ -83,8 +83,8 @@
     "objectID": "intro.html#por-qué-git",
     "href": "intro.html#por-qué-git",
     "title": "1  Introdución",
-    "section": "1.1 ¿Por qué git?",
-    "text": "1.1 ¿Por qué git?\n¿Tenés algo así en tu computadora?\n/home/yani/Documents/Clases/programacion\n├── script.R\n├── tp.Rmd\n├── tp_corregido.Rmd\n├── tp_corregido2.Rmd\n├── tp_final.Rmd\n├── tp_finalfinal.Rmd\n├── este_es_el_final.Rmd\n├── juro_que_esta_es_la_ultima_version_del_tp.Rmd\n└── FINAL.Rmd\nProbablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores. Existe una solución para esto. Los sistemas de control de versiones gestionan la evolución y los cambios de un conjunto de archivos que llamaremos repositorio. Si alguna vez has mirado el historial de un archivo de Google Docs, es así pero de una forma muy controlada.",
+    "section": "",
+    "text": "/home/yani/Documents/Clases/programacion\n├── script.R\n├── tp.Rmd\n├── tp_corregido.Rmd\n├── tp_corregido2.Rmd\n├── tp_final.Rmd\n├── tp_finalfinal.Rmd\n├── este_es_el_final.Rmd\n├── juro_que_esta_es_la_ultima_version_del_tp.Rmd\n└── FINAL.Rmd",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
@@ -143,8 +143,8 @@
     "objectID": "profile.html#crear-una-cuenta-en-github",
     "href": "profile.html#crear-una-cuenta-en-github",
     "title": "2  Perfil de GitHub",
-    "section": "Crear una cuenta en GitHub",
-    "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
+    "section": "",
+    "text": "Ir a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil en GitHub</span>"
     ]
@@ -183,8 +183,8 @@
     "objectID": "repositories.html#creando-un-nuevo-repositorio",
     "href": "repositories.html#creando-un-nuevo-repositorio",
     "title": "3  Repositorios",
-    "section": "3.1 Creando un nuevo repositorio",
-    "text": "3.1 Creando un nuevo repositorio\nHay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o incluso desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub.\n\n1. Creá un repositorio online.\n\nEntrá en github.com e inicia sesión.\nEn la esquina superior derecha, hacé click en el botón “+” y luego en “New repository”.\n\nA continuación completá la información del repositorio:\n\nRepository template: No template.\nRepository name: como quieras llamar a tu nuevo proyecto.\nDescription: Una descripción breve del proyecto. Escribila para los humanos.\nVisibilidad: Public.\nInitialize this repository with: Add a README file.\nChoose a license: selecciona MIT por ahora.\n\n\n\n\nCaptura de pantalla - Create a new repository",
+    "section": "",
+    "text": "1. Creá un repositorio online.\n\nEntrá en github.com e inicia sesión.\nEn la esquina superior derecha, hacé click en el botón “+” y luego en “New repository”.\n\nA continuación completá la información del repositorio:\n\nRepository template: No template.\nRepository name: como quieras llamar a tu nuevo proyecto.\nDescription: Una descripción breve del proyecto. Escribila para los humanos.\nVisibilidad: Public.\nInitialize this repository with: Add a README file.\nChoose a license: selecciona MIT por ahora.\n\n\n\n\nCaptura de pantalla - Create a new repository",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabajando con repositorios</span>"
     ]
@@ -224,7 +224,7 @@
     "href": "issues.html",
     "title": "4  Issues",
     "section": "",
-    "text": "4.1 Usando GitHub Issues para gestionar tu investigación\nTu proyecto ahora vive en un repositorio de GitHub, y has creado varios archivos útiles que orientarán a los colaboradores de tu proyecto. Ahora bien, ¿cómo sabe alguien que quiere contribuir lo que debería estar haciendo?\nTanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas pendientes, dudas metodológicas o problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets.\nGitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.\nEn términos generales, las personas crean tres tipos de issues:\nCuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.\nEn GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son bug (o error), feature (o nueva funcionalidad), question (o pregunta), good first issue (o para principiantes), urgent (o urgente), duplicate (duplicado), entre otros. También podemos crear nuevas etiquetas.",
+    "text": "4.1 Usando GitHub Issues para gestionar tu investigación\nTu proyecto ahora vive en un repositorio de GitHub, y has creado varios archivos útiles que orientarán a los colaboradores de tu proyecto. Ahora bien, ¿cómo sabe alguien que quiere contribuir lo que debería estar haciendo?\nTanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas pendientes, dudas metodológicas o problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets.\nGitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Nuestra lista TODO con Issues</span>"
     ]
@@ -233,8 +233,18 @@
     "objectID": "issues.html#usando-github-issues-para-gestionar-tu-investigación",
     "href": "issues.html#usando-github-issues-para-gestionar-tu-investigación",
     "title": "4  Issues",
-    "section": "4.1 Usando GitHub Issues para gestionar tu investigación",
-    "text": "4.1 Usando GitHub Issues para gestionar tu investigación\nTu proyecto ahora vive en un repositorio de GitHub, y has creado varios archivos útiles que orientarán a los colaboradores de tu proyecto. Ahora bien, ¿cómo sabe alguien que quiere contribuir lo que debería estar haciendo?\nTanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas pendientes, dudas metodológicas o problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets.\nGitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.\n\nAqui hay un ejemplo de un issue en el repositorio del taller. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.\nLos issues son una excelente manera de documentar decisiones metodológicas y mantener discusiones sobre el proyecto. Aunque se cierren los issues, quedan en el historial de GitHub como referencia futura.",
+    "section": "",
+    "text": "Aqui hay un ejemplo de un issue en el repositorio del taller. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.\nLos issues son una excelente manera de documentar decisiones metodológicas y mantener discusiones sobre el proyecto. Aunque se cierren los issues, quedan en el historial de GitHub como referencia futura.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Nuestra lista TODO con Issues</span>"
+    ]
+  },
+  {
+    "objectID": "issues.html#tipos-de-issues",
+    "href": "issues.html#tipos-de-issues",
+    "title": "4  Issues",
+    "section": "4.2 Tipos de issues",
+    "text": "4.2 Tipos de issues\nEn términos generales, las personas crean tres tipos de issues:\n\nPara informar sobre errores y describir los problemas que han encontrado.\nSugerencias de nuevas tareas, como “agregar un análisis de sensibilidad” o “incluir visualizaciones adicionales”.\nPreguntas sobre el uso del proyecto, el funcionamiento de partes del proyecto o su orientación futura.\n\n\nCrea dos issues en alguno de los respositorios del taller,\n\nen uno de los issues agrega un checklist con al menos tres items.\nen el otro issue prueba los formatos del texto. El texto de los issues puede tener formato markdown y por ende contener codigo de ejemplo, checklist, emojis, entre otros formatos.\n\n\n\nRevisa los repositorios de las otras personas en el taller y crea un issue en alguno. Puede ser un issue que solo indique que es una prueba para este taller.\n\nCuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.\nEn GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son bug (o error), feature (o nueva funcionalidad), question (o pregunta), good first issue (o para principiantes), urgent (o urgente), duplicate (duplicado), entre otros.\nTambién podemos crear nuevas etiquetas. A veces dependiendo del tipo de proyecto vamos a usar diferentes etiquetas, por ejemplo, este es el proyecto de traduccion de rOpenSci, las etiquetas son:\n\nneed-first-review\nTraduccion\nTraducao\nneed-second-review\nready-to-be-merge\n\nEn este blog post de Greg Wilson (en ingles) nos presenta opciones de etiquetas para proyectos de documentos tecnicos, como libros, que tambien se realizan en GitHub.\n\nEn tu repo del taller crea esta serie de etiquetas:\n\nagregar: para pedir algo nuevo\ncambiar: existe pero podria ser mejor\ncodigo: el issue esta en el software\ntexto: el issue esta en el texto (documentos, capitulos, ejemplos, materiales de clase)\n\narreglar: algo no funciona bien\nherramientas: el issue esta relacionado a la infraestructura (por ejemplo software o paquetes que tenemos que instalar o usar)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Nuestra lista TODO con Issues</span>"
     ]
@@ -245,16 +255,6 @@
     "title": "5  Projects",
     "section": "",
     "text": "5.1 ¿Qué son los proyectos de GitHub?\nLos proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).\nLos proyectos forman parte de una cuenta (personal u organización). Un proyecto no “pertenece” a un repositorio, sino que está vinculado a uno. Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
-    ]
-  },
-  {
-    "objectID": "projects.html#qué-son-los-proyectos-de-github",
-    "href": "projects.html#qué-son-los-proyectos-de-github",
-    "title": "5  Projects",
-    "section": "5.1 ¿Qué son los proyectos de GitHub?",
-    "text": "5.1 ¿Qué son los proyectos de GitHub?\nLos proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).\n\nAdicionar uma imagem ilustrativa.\n\nLos proyectos forman parte de una cuenta (personal u organización). Un proyecto no “pertenece” a un repositorio, sino que está vinculado a uno. Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
@@ -323,8 +323,8 @@
     "objectID": "collaboration.html#introducción-a-la-colaboración",
     "href": "collaboration.html#introducción-a-la-colaboración",
     "title": "6  Colaboración",
-    "section": "6.1 Introducción a la colaboración",
-    "text": "6.1 Introducción a la colaboración\nLa colaboración es uno de los aspectos más importantes de GitHub. La plataforma ofrece varias herramientas que facilitan el trabajo en equipo y la contribución a proyectos de otros investigadores.\nExisten dos formas principales de colaborar en GitHub:\n\nColaboración directa (con permisos de escritura): Cuando tenemos permisos de edición en el repositorio.\nColaboración mediante fork (sin permisos de escritura): Cuando queremos contribuir a proyectos de terceros y no tenemos permisos de edición en el repositorio.\n\nEn este tutorial nos centraremos principalmente en la colaboración mediante fork, ya que es la forma un poco más compleja, y la mayoría de los conceptos aprendidos servirán para ambas formas de colaboración.",
+    "section": "",
+    "text": "Colaboración directa (con permisos de escritura): Cuando tenemos permisos de edición en el repositorio.\nColaboración mediante fork (sin permisos de escritura): Cuando queremos contribuir a proyectos de terceros y no tenemos permisos de edición en el repositorio.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
     ]
@@ -354,7 +354,7 @@
     "href": "collaboration.html#pull-requests",
     "title": "6  Colaboración",
     "section": "6.4 Pull Requests",
-    "text": "6.4 Pull Requests\nUn Pull Request (PR) es la forma de proponer cambios a un repositorio. Pasos básicos:\n\nHacer cambios en nuestra rama\nCrear un Pull Request\nDiscutir los cambios propuestos\nIncorporar los cambios al proyecto original\n\n\n6.4.1 Crear un Pull Request\n\nIr a la pestaña “Pull requests”\nHacer clic en “New Pull Request”\nSeleccionar las ramas a comparar\nDescribir los cambios propuestos\nCrear el Pull Request\n\n\n\n\nCaptura de pantalla - Crear Pull Request",
+    "text": "6.4 Pull Requests\nUn Pull Request (PR) es la forma de proponer cambios a un repositorio. Pasos básicos:\n\nHacer cambios en nuestra rama\nCrear un Pull Request\nDiscutir los cambios propuestos\nIncorporar los cambios al proyecto original\n\n\n6.4.1 Crear un Pull Request\n\nIr a la pestaña “Pull requests”\nHacer clic en “New Pull Request”\nSeleccionar las ramas a comparar\nDescribir los cambios propuestos\nCrear el Pull Request",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
     ]
@@ -393,8 +393,8 @@
     "objectID": "release.html#que-son-las-versiones",
     "href": "release.html#que-son-las-versiones",
     "title": "7  Versiones",
-    "section": "7.1 Que son las versiones",
-    "text": "7.1 Que son las versiones\nEn ocasiones, estos artefactos van a cambiar con el tiempo, por ejemplo mejoramos nuestro software o agregamos mas casos a nuestro conjunto de datos.\nPara poder tener un registro de las diferentes versiones de nuestros contenidos en GitHub existen los release o una nueva version de ese material.\n\nEn software el release o las versiones estan dadas por esta nomenclatura: v.1.0 o v.2.5, que se lee version uno punto cero, o version dos punto cinco. Indicando que el software a tenido cambios mayores (cambia el numero adelante del punto) y algunos menores (cambia el numero detras del punto).\n\nEs interesante saber con que version de un software o datos estamos trabajando porque eso nos ayudara a realizar nuestro trabajo de forma mas reproducible.",
+    "section": "",
+    "text": "En software el release o las versiones estan dadas por esta nomenclatura: v.1.0 o v.2.5, que se lee version uno punto cero, o version dos punto cinco. Indicando que el software a tenido cambios mayores (cambia el numero adelante del punto) y algunos menores (cambia el numero detras del punto).",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Compartir y mantener la autoria</span>"
     ]
@@ -436,27 +436,6 @@
     "title": "Apéndice A — Preparando el entorno de trabajo",
     "section": "Crear una cuenta en GitHub",
     "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
-    "crumbs": [
-      "Apéndices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Instalando el entorno de trabajo</span>"
-    ]
-  },
-  {
-    "objectID": "issues.html#tipos-de-issues",
-    "href": "issues.html#tipos-de-issues",
-    "title": "4  Issues",
-    "section": "4.2 Tipos de issues",
-    "text": "4.2 Tipos de issues\nEn términos generales, las personas crean tres tipos de issues:\n\nPara informar sobre errores y describir los problemas que han encontrado.\nSugerencias de nuevas tareas, como “agregar un análisis de sensibilidad” o “incluir visualizaciones adicionales”.\nPreguntas sobre el uso del proyecto, el funcionamiento de partes del proyecto o su orientación futura.\n\n\nCrea dos issues en alguno de los respositorios del taller,\n\nen uno de los issues agrega un checklist con al menos tres items.\nen el otro issue prueba los formatos del texto. El texto de los issues puede tener formato markdown y por ende contener codigo de ejemplo, checklist, emojis, entre otros formatos.\n\n\n\nRevisa los repositorios de las otras personas en el taller y crea un issue en alguno. Puede ser un issue que solo indique que es una prueba para este taller.\n\nCuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.\nEn GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son bug (o error), feature (o nueva funcionalidad), question (o pregunta), good first issue (o para principiantes), urgent (o urgente), duplicate (duplicado), entre otros.\nTambién podemos crear nuevas etiquetas. A veces dependiendo del tipo de proyecto vamos a usar diferentes etiquetas, por ejemplo, este es el proyecto de traduccion de rOpenSci, las etiquetas son:\n\nneed-first-review\nTraduccion\nTraducao\nneed-second-review\nready-to-be-merge\n\nEn este blog post de Greg Wilson (en ingles) nos presenta opciones de etiquetas para proyectos de documentos tecnicos, como libros, que tambien se realizan en GitHub.\n\nEn tu repo del taller crea esta serie de etiquetas:\n\nagregar: para pedir algo nuevo\ncambiar: existe pero podria ser mejor\ncodigo: el issue esta en el software\ntexto: el issue esta en el texto (documentos, capitulos, ejemplos, materiales de clase)\n\narreglar: algo no funciona bien\nherramientas: el issue esta relacionado a la infraestructura (por ejemplo software o paquetes que tenemos que instalar o usar)",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Nuestra lista TODO con Issues</span>"
-    ]
-  },
-  {
-    "objectID": "A_instalacion.html#instalando-git",
-    "href": "A_instalacion.html#instalando-git",
-    "title": "Apéndice A — Preparando el entorno de trabajo",
-    "section": "Instalando Git",
-    "text": "Instalando Git\nGit es una herramienta para control de versiones, vamos a utilizarla para trabajar colaborativamente.\nEn la pagina de Git podemos descargar el instalador para nuestro sistema operativo.\nEn esa misma pagina hay una guia de instalacion para cada sistema operativo en castellano. Sigue las instrucciones detallas en la misma.",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Instalando el entorno de trabajo</span>"

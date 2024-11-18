@@ -9,10 +9,6 @@ editor:
 
 Los proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).
 
-::: todo
-Adicionar uma imagem ilustrativa.
-:::
-
 Los proyectos forman parte de una cuenta (personal u organización).
 Un proyecto no "pertenece" a un repositorio, sino que está vinculado a uno.
 Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.

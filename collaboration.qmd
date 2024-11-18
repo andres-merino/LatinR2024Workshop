@@ -68,7 +68,7 @@ Un Pull Request (PR) es la forma de proponer cambios a un repositorio. Pasos bá
 4. Describir los cambios propuestos
 5. Crear el Pull Request
 
-![Captura de pantalla - Crear Pull Request](images/create-pr.png)
+<!-- ![Captura de pantalla - Crear Pull Request](images/create-pr.png) -->
 
 ## Buenas prácticas de colaboración
 
