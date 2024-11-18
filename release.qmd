@@ -1,3 +1,82 @@
 ---
-title: "Releases"
+title: "Versiones"
 ---
+
+Nuestros proyectos de invetigacion tienen muchos resultados. Muchas veces estos resultados no terminan en una publicacion, si no en otro tipo de artefactos que pueden ser muy utiles para vos y otros equipos.  
+
+Por ejemplo conjunto de datos, materiales de clase y software.
+
+GitHub esta optimizado para trabajar con codigo pero tambien nos permite publicar otro tipo de contenido como el que mencionamos.
+
+Ademas nos permite vincularlo con [Zenodo](https://zenodo.org) nos permite depositarlo en ese archivo y obtener un DOI para poder citarlo. 
+
+Ademas Zenodo lleva estadistivas de vistas y descargas de cada elemento que depositamos.
+
+## Que son las versiones
+
+En ocasiones, estos artefactos van a cambiar con el tiempo, por ejemplo mejoramos nuestro software o agregamos mas casos a nuestro conjunto de datos.
+
+Para poder tener un registro de las diferentes versiones de nuestros contenidos en GitHub existen los _release_ o una nueva version de ese material.  
+
+::: tip
+
+En software el _release_ o las versiones estan dadas por esta nomenclatura: v.1.0 o v.2.5, que se lee version uno punto cero, o version dos punto cinco.  Indicando que el software a tenido cambios mayores (cambia el numero adelante del punto) y algunos menores (cambia el numero detras del punto).
+
+:::
+
+Es interesante saber con que version de un software o datos estamos trabajando porque eso nos ayudara a realizar nuestro trabajo de forma mas reproducible.
+
+## Como versionamos nuestro material.
+
+Para crear una nueva version (a veces se le dice lanzamiento) en GitHub, se debe:
+
+1. Ir a la página principal del repositorio
+
+2. Hacer clic en _Releases_ a la derecha de la lista de archivos. Si la opción no aparece puedes acceder agregando `/releases` en la url del repositorio.
+
+3. Hacer clic en la opcion _create new release_
+
+![Seccion de releases de Github](images/zenodo-screen6.png)
+
+4. Completar la versión de este _release_, el título y la descripción y luego presionar el botón _publish release_, como se muestra en la siguiente figura.
+    
+![Ejemplo de datos para una nueva release](images/zenodo-screen7.png)
+
+## Tres simples pasos para compartir nuestro material
+
+Ya charlamos y nos encargamos de los dos primeros pasos:
+
+**Paso 1: seleccionar una licencia abierta.**
+
+**Paso 2: almacenar el material en un repositorio que nos permita publicarlo.**
+
+**Paso 3: agregar un [indentificador de objeto digital (DOI)](https://es.wikipedia.org/wiki/Identificador_de_objeto_digital) para que sea citable. **
+
+Alli es donde entra Zenodo.  Seguiremos estos pasos:
+
+* Entrar a [Zenodo](https://zenodo.org/) y presionar el botón Login en la parte superior derecha de la página y seleccionar la opción de iniciar sesión con tu cuenta de GitHub.
+   
+![Login en Zenodo](images/zenodo-screen1.png)
+
+* Debemos _autorizar la aplicación_ para otorgarle a Zenodo los permisos que necesita para poder asignar un DOI a tu repositorio. 
+![Autorizar el acceso a Zenodo](images/zenodo-screen2.png)
+
+* Luego de confirmar que es nuestra cuenta (nos llegará un mail), estaremos logueados en Zenodo y en la esquina superior derecha aparece nuestro correo asociado a GitHub, si hacemos click en el triangulito se despliega un menú donde seleccionamos GitHub:  
+
+![Seleccionar GitHub](images/zenodo-screen3.png)
+
+* Ahora, elije el repositorio que deseas archivar. Para habilitar esta funcionalidad hacemos clic en el botón Activar junto a al repositorio (en este caso GEE_course_code). El respositorio debe ser _público_
+
+![Seleccionar el repositorio que se quiere depositar en Zenodo](images/zenodo-screen4.png)
+
+* Debemos verificar que la configuración del repositorio para enviarle mensajes a Zenodo fue exitosa, para eso hacemos clic en la pestaña de configuración en tu repositorio y luego clic en _Webhooks_ en el menú de la izquierda. Deberías ver una pantalla similar a la siguiente imagen: 
+
+![Chequear que la relacion esta funcionando](images/zenodo-screen5.png)
+
+* Crea una nueva versión: Zenodo archiva tu repositorio cada vez que generes una nueva versión. 
+
+* Ahora vamos a obtener el DOI, para eso debemos volver a Zenodo y hacer click en _Upload_. Allí va a mostrarnos los diferentes materiales que tenemos publicados enZenodo, si hacemos click en el nombre, nos muestra todo el detalle, podemos editar la inforamción y si bajamos en la página a la derecha nos muestra el DOI y una cita sugerida.
+
+![Ejemplo de repositorio en Zenodo con cita y DOI](images/zenodo-screen8.png)
+
+Listo, ya tenemos el DOI y la cita que podemos agregar a nuestro repo y pedirle a las personas que usen nuestros materiales que la utilicen para mencionarnos.
