@@ -1,8 +1,8 @@
 # Te damos la bienvenida {.unnumbered}
 
-::: enconstruccion
-Estos materiales están en desarrollo. 
-:::
+<!-- ::: enconstruccion -->
+<!-- Estos materiales están en desarrollo.  -->
+<!-- ::: -->
 
 
 ## Sobre este taller
