@@ -11,12 +11,14 @@ Tanto si trabajamos solos como con un grupo de personas, la mejor forma de gesti
 GitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.
 
 :::importante
-Hemos creado issues en sus repositorios durante la cursada. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.
+Aqui hay [un ejemplo de un issue en el repositorio del taller](https://github.com/Git4Researchers/LatinR2024Workshop/issues/8). Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.
 
 
 Los issues son una excelente manera de documentar decisiones metodológicas y mantener discusiones sobre el proyecto. 
 Aunque se cierren los issues, quedan en el historial de GitHub como referencia futura.
 :::
+
+## Tipos de _issues_
 
 En términos generales, las personas crean tres tipos de issues:
 
@@ -26,6 +28,51 @@ En términos generales, las personas crean tres tipos de issues:
 
 3. Preguntas sobre el uso del proyecto, el funcionamiento de partes del proyecto o su orientación futura. 
 
+::: ejercicio
+
+Crea dos issues en alguno de los respositorios del taller, 
+
+- en uno de los issues agrega un checklist con al menos tres items.
+
+- en el otro issue prueba los formatos del texto.  El texto de los issues puede tener formato markdown y por ende contener codigo de ejemplo, checklist, emojis, entre otros formatos.
+
+:::
+
+::: ejercicio
+
+Revisa los repositorios de las otras personas en el taller y crea un issue en alguno.  Puede ser un issue que solo indique que es una prueba para este taller.
+
+::: 
+
 Cuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.
 
-En GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son **bug** (o error), **feature** (o nueva funcionalidad), **question** (o pregunta), **good first issue** (o para principiantes), **urgent** (o urgente), **duplicate** (duplicado), entre otros. También podemos crear nuevas etiquetas.
+En GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son **bug** (o error), **feature** (o nueva funcionalidad), **question** (o pregunta), **good first issue** (o para principiantes), **urgent** (o urgente), **duplicate** (duplicado), entre otros. 
+
+También podemos crear nuevas etiquetas. A veces dependiendo del tipo de proyecto vamos a usar diferentes etiquetas, por ejemplo, este es el proyecto de traduccion de rOpenSci, las etiquetas son:
+
+- **need-first-review**
+- **Traduccion**
+- **Traducao**
+- **need-second-review**
+- **ready-to-be-merge**
+
+En este blog post de Greg Wilson (en ingles) nos presenta [opciones de etiquetas para proyectos de documentos tecnicos, como libros, que tambien se realizan en GitHub](https://ropensci.org/blog/2024/09/12/labels-writing-projects/).
+
+::: ejercicio
+
+En tu repo del taller crea esta serie de etiquetas:
+
+
+* agregar:	para pedir algo nuevo
+* cambiar:	existe pero podria ser mejor
+* codigo:	el issue esta en el software
+* texto: el issue esta en el texto (documentos, capitulos, ejemplos, materiales de clase)	
+* arreglar:	algo no funciona bien
+* herramientas:	el issue esta relacionado a la infraestructura (por ejemplo software o paquetes que tenemos que instalar o usar)
+
+:::
+
+
+
+
+
