@@ -6,7 +6,7 @@
     "section": "",
     "text": "Te damos la bienvenida",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "section": "Sobre este taller",
     "text": "Sobre este taller\nEste taller está diseñado para introducir a investigadoras/es a GitHub, una potente plataforma para el control de versiones y la colaboración. Los participantes aprenderán los fundamentos del uso de GitHub para gestionar sus proyectos de investigación, incluyendo cómo crear y gestionar repositorios, realizar un seguimiento de los cambios y colaborar con otras personas.\nAdemás, el taller hará hincapié en la relevancia de GitHub en la promoción de la ciencia abierta, destacando su papel como repositorio de código y datos que apoya la transparencia y la reproducibilidad en la investigación.\nAl final del taller, los participantes serán capaces de integrar GitHub en sus flujos de trabajo de investigación, mejorando tanto la colaboración como la difusión abierta del conocimiento científico.\n\nObjectivos de aprendizaje\nLos objetivos específicos de aprendizaje incluyen:\n\nComprender los conceptos básicos del control de versiones y cómo se aplican a los flujos de trabajo de investigación.\nAdquirir experiencia práctica en la creación y gestión de repositorios de GitHub.\nExplorar el uso de GitHub Issues y Projects para gestionar las tareas de investigación y la comunicación dentro de los equipos de investigación.\nReconocer los diferentes componentes de un repositorio (readme, licencia, código de conducta, citas, entre otros).",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "section": "¿A quién está dirigido el tutorial?",
     "text": "¿A quién está dirigido el tutorial?\nEste tutorial está dirigido a investigadoras/es de todas las disciplinas interesados en mejorar sus habilidades de gestión de proyectos y colaboración utilizando GitHub. Es ideal para quienes forman parte de equipos o grupos de investigación, con cierta familiaridad con los flujos de trabajo de investigación, pero no se requiere experiencia previa con GitHub.",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "section": "Tutoras",
     "text": "Tutoras\n\nBeatriz Milz - Beatriz es una GitHub Star, y actualmente es investigadora post-doctoral en la Universidade Federal do ABC (UFABC), en Brasil. Es doctora en Ciencias Ambientales por la Universidade de São Paulo (USP). Es coorganizadora de R-Ladies São Paulo y editora de revisión de software en rOpenSci».\nYanina Bellini Saibene - Yani es una GitHub Star desde 2022. Es Community Manager de rOpenSci, Líder del Proyecto R-Ladies y Vicepresidenta de la Junta Directiva de The Carpentries. Vive en Argentina y es profesora en la Universidad Austral (Argentina). Es organizadora de R-Ladies Santa Rosa y cofundadora y co-presidenta de LatinR. Yani es también formadora e instructora certificada por Posit y The Carpentries.",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -46,7 +46,7 @@
     "section": "Reutilización y licencia",
     "text": "Reutilización y licencia\nTodo el material puede reutilizarse libremente bajo los términos de la licencia Creative Commons Reconocimiento 4.0 Internacional Licencia, esto significa que el material puede utilizarse, reutilizarse y modificarse, siempre que se cite esta fuente.\nEl código fuente del libro se encuentra en el repositorio de GitHub.\nCualquier corrección, o contribuciones son bienvenidas. Visitá nuestra página sobre como contribuir para conocer más.",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "section": "Convenciones en el libro",
     "text": "Convenciones en el libro\nEl libro esta ordenado en capitulos que abarcan un tema en particular. Dentro del capitulo podemos presentar ejercicios, ejemplos, consejos, advertencias, etc. Para diferenciar estos elementos utilizamos los siguientes bloques:\n\nEste es un ejercicio\n\n\nEste es un ejemplo\n\n\nA tener en cuenta!\n\n\nEste es un consejo",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -66,7 +66,7 @@
     "section": "Fuentes",
     "text": "Fuentes\nEste libro utilizo como fuentes los siguientes materiales:\n\nResearch Software Engineering with Python: Building software that makes research possible de Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, y Greg Wilson. Disponible de manera gratuita: https://third-bit.com/py-rse/\nIntroducción a la Programación II, de Yanina Bellini Saibene y Paola Corrales. Disponible de manera gratuita: https://intro-programacion.netlify.app/",
     "crumbs": [
-      "Informaciones"
+      "Informacion del taller"
     ]
   },
   {
@@ -76,17 +76,17 @@
     "section": "",
     "text": "1.1 ¿Por qué git?\n¿Tenés algo así en tu computadora?\nProbablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores. Existe una solución para esto. Los sistemas de control de versiones gestionan la evolución y los cambios de un conjunto de archivos que llamaremos repositorio. Si alguna vez has mirado el historial de un archivo de Google Docs, es así pero de una forma muy controlada.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdución</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
   },
   {
     "objectID": "intro.html#por-qué-git",
     "href": "intro.html#por-qué-git",
     "title": "1  Introdución",
-    "section": "1.1 ¿Por qué git?",
-    "text": "1.1 ¿Por qué git?\n¿Tenés algo así en tu computadora?\n/home/yani/Documents/Clases/programacion\n├── script.R\n├── tp.Rmd\n├── tp_corregido.Rmd\n├── tp_corregido2.Rmd\n├── tp_final.Rmd\n├── tp_finalfinal.Rmd\n├── este_es_el_final.Rmd\n├── juro_que_esta_es_la_ultima_version_del_tp.Rmd\n└── FINAL.Rmd\nProbablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores. Existe una solución para esto. Los sistemas de control de versiones gestionan la evolución y los cambios de un conjunto de archivos que llamaremos repositorio. Si alguna vez has mirado el historial de un archivo de Google Docs, es así pero de una forma muy controlada.",
+    "section": "",
+    "text": "/home/yani/Documents/Clases/programacion\n├── script.R\n├── tp.Rmd\n├── tp_corregido.Rmd\n├── tp_corregido2.Rmd\n├── tp_final.Rmd\n├── tp_finalfinal.Rmd\n├── este_es_el_final.Rmd\n├── juro_que_esta_es_la_ultima_version_del_tp.Rmd\n└── FINAL.Rmd",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdución</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
   },
   {
@@ -96,7 +96,7 @@
     "section": "1.2 ¿Qué es Git?",
     "text": "1.2 ¿Qué es Git?\nGit es un sistema de control de versiones distribuido que permite a múltiples personas trabajar en un proyecto al mismo tiempo sin sobrescribir el trabajo de los demás. Con Git, cada cambio se guarda en un historial, lo que permite volver a versiones anteriores si es necesario. Además, facilita la colaboración y la integración de cambios de diferentes colaboradores.\n\n\n\nCaptura de pantalla - Git",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdución</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
   },
   {
@@ -106,7 +106,7 @@
     "section": "1.3 ¿Qué es GitHub?",
     "text": "1.3 ¿Qué es GitHub?\nGitHub es una plataforma basada en la web que utiliza Git para el control de versiones y la colaboración. Permite a los desarrolladores almacenar sus repositorios de Git en la nube, facilitando el acceso y la colaboración desde cualquier lugar. GitHub también ofrece herramientas adicionales como gestión de proyectos, seguimiento de problemas (issues), y revisión de código.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdución</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
   },
   {
@@ -116,7 +116,7 @@
     "section": "1.4 Beneficios de usar Git y GitHub",
     "text": "1.4 Beneficios de usar Git y GitHub\n\nColaboración: Permite a múltiples investigadores trabajar en el mismo proyecto simultáneamente, ideal para colaboraciones entre instituciones o grupos de investigación.\nHistorial de cambios: Mantiene un registro detallado de todos los cambios realizados en el proyecto, fundamental para la reproducibilidad científica.\nReversión de cambios: Facilita la recuperación de versiones anteriores de análisis o manuscritos.\nDocumentación: Ayuda a mantener un registro claro de las decisiones metodológicas y cambios en el análisis de datos.\nComunicación: Mejora la comunicación entre colaboradores y facilita el seguimiento de las contribuciones de cada investigador.\nCiencia abierta: Promueve la transparencia y reproducibilidad de la investigación, permitiendo compartir código y datos de manera efectiva.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdución</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
   },
   {
@@ -126,7 +126,7 @@
     "section": "1.5 Conclusión",
     "text": "1.5 Conclusión\nGit y GitHub son herramientas valiosas para la comunidad científica. Aunque originalmente fueron diseñadas para el desarrollo de software, son igualmente útiles para gestionar proyectos de investigación. Ya sea que estés trabajando en análisis estadísticos, manuscritos científicos o códigos de procesamiento de datos, estas herramientas te ayudarán a mantener un flujo de trabajo organizado y colaborativo. En este taller, aprenderás a utilizar Git y GitHub para mejorar la reproducibilidad y transparencia de tu investigación.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdución</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduccion</span>"
     ]
   },
   {
@@ -136,17 +136,17 @@
     "section": "",
     "text": "Crear una cuenta en GitHub\nEn esta leccion vamos a crear una cuenta, si es que no tienes una, revisaremos nuestro perfil en GitHub y aprenderemos a completar informacion importante sobre nuestro trabajo academico y de investigacion.\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil en GitHub</span>"
     ]
   },
   {
     "objectID": "profile.html#crear-una-cuenta-en-github",
     "href": "profile.html#crear-una-cuenta-en-github",
     "title": "2  Perfil de GitHub",
-    "section": "Crear una cuenta en GitHub",
-    "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
+    "section": "",
+    "text": "Ir a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil en GitHub</span>"
     ]
   },
   {
@@ -156,7 +156,7 @@
     "section": "2.1 Nuestro perfil",
     "text": "2.1 Nuestro perfil\nUna vez que creamos una cuenta en GitHub, tenemos nuestro perfil publico en internet.\nLa página de tu perfil cuenta la historia de tu trabajo a través de los repositorios en los que te interesas, las colaboraciones que has realizado y las conversaciones que has tenido.\nSi revisamos el perfil en GitHub de Yanina vamos a ver un par de cosas interesantes en columna izquierda de la página:\n\nInformacion general: llamamos a esto todo lo que aparece debajo de la foto del perfil. Nombre, pronombres y una mini bio. Luego datos de cuantos seguidores tienen y a cuantas personas sigue. Ademas se puede detallar:\n\nLugar de trabajo: @ropensci\nLocalizacion: Santa Rosa, La Pampa, Argentina\nZona horaria: 12:51 (UTC -03:00)\nSitio web: https://yabellini.netlify.app\nORCID: https://orcid.org/0000-0002-4522-7466\nDiversas redes sociales como Mastodon, LinkedIn, BlueSky y Youtube.\n\nNotificaciones y logros: destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.\nOrganizaciones: un listado de las organizaciones que estan presentes en GitHub y de las cuales sos parte. Esto se completa automaticamente, aunque puedes decidir si algunas cosas son visibles o no.\n\n\n\n\nCaptura de pantalla - Perfil de Yani\n\n\n\nEn la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en Your profile (Tu perfil).\nEntra a tu perfil, clique en “Edit Profile”, y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.\nCuando termines comparti el link a tu perfil en el chat y en el documento compartido.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil en GitHub</span>"
     ]
   },
   {
@@ -166,7 +166,7 @@
     "section": "2.2 Informacion de nuestra actividad",
     "text": "2.2 Informacion de nuestra actividad\nLos perfiles ademas muestran nuestros repositorios y nuestra actividad mas reciente. En la imagen de abajo, tenemos las actividades más recientes en el perfil de GitHub de Yani:\n\n\n\nCaptura de pantalla - Perfil de Yani - Actividad mas reciente\n\n\nTambien podemos personalizarlo agregando un resumen de nuestra actividad. En la imagen de abajo, tenemos el resumen del perfil de GitHub de Yani:\n\n\n\nCaptura de pantalla - Perfil de Yani - Resumen\n\n\nPodemos seleccionar que mostrar de cada una de estas secciones. Por ejemplo podemos fijar hasta seis repositorios en nuestro perfil y seran los primeros que las personas vean cuando entren a nuestra pagina. En la imagen de abajo, tenemos los repositorios fijados en el perfil de GitHub de Bea:\n\n\n\nCaptura de pantalla - Perfil de Bea - Repositorios fijados\n\n\nTambien podemos seleccionar que tipo de contribuciones vamos a dejar que otras personas vean.\n\n2.2.1 Este es un desafio opcional\nSi tienes repositorios vamos a fijar algunos. Para eso segui estos pasos:\n\nEn la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en Your profile (Tu perfil).\nEn la parte de arriba de la sección “Repositorios populares” o “Anclados”, haz clic en Personalizar los anclajes.\nOpcionalmente, para cambiar qué elementos se incluyen en la lista en la que se pueden buscar, junto a “Mostrar”, selecciona o anula la selección de Repositorios y Gists.\nSelecciona hasta seis repositorios.\n\nHace clic en Save pins.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil de GitHub</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Perfil en GitHub</span>"
     ]
   },
   {
@@ -176,17 +176,17 @@
     "section": "",
     "text": "3.1 Creando un nuevo repositorio\nUn repositorio es el elemento más básico de GitHub. Es un lugar donde se almacena código, datos, otros tipos de archivo y el historial de cambios de cada uno de ellos. Los repositorios pueden contar con múltiples colaboradores y pueden ser públicos como privados.\nHay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o incluso desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabajando con repositorios</span>"
     ]
   },
   {
     "objectID": "repositories.html#creando-un-nuevo-repositorio",
     "href": "repositories.html#creando-un-nuevo-repositorio",
     "title": "3  Repositorios",
-    "section": "3.1 Creando un nuevo repositorio",
-    "text": "3.1 Creando un nuevo repositorio\nHay muchas formas de iniciar un nuevo repositorio, localmente en tu computadora utilizando la terminal, desde GitHub (o sus amigos) ¡o incluso desde RStudio!. Aca te mostraremos cómo crear un repositorio desde GitHub.\n\n1. Creá un repositorio online.\n\nEntrá en github.com e inicia sesión.\nEn la esquina superior derecha, hacé click en el botón “+” y luego en “New repository”.\n\nA continuación completá la información del repositorio:\n\nRepository template: No template.\nRepository name: como quieras llamar a tu nuevo proyecto.\nDescription: Una descripción breve del proyecto. Escribila para los humanos.\nVisibilidad: Public.\nInitialize this repository with: Add a README file.\nChoose a license: selecciona MIT por ahora.\n\n\n\n\nCaptura de pantalla - Create a new repository",
+    "section": "",
+    "text": "1. Creá un repositorio online.\n\nEntrá en github.com e inicia sesión.\nEn la esquina superior derecha, hacé click en el botón “+” y luego en “New repository”.\n\nA continuación completá la información del repositorio:\n\nRepository template: No template.\nRepository name: como quieras llamar a tu nuevo proyecto.\nDescription: Una descripción breve del proyecto. Escribila para los humanos.\nVisibilidad: Public.\nInitialize this repository with: Add a README file.\nChoose a license: selecciona MIT por ahora.\n\n\n\n\nCaptura de pantalla - Create a new repository",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabajando con repositorios</span>"
     ]
   },
   {
@@ -196,7 +196,7 @@
     "section": "3.2 Visibilidad de un repositorio",
     "text": "3.2 Visibilidad de un repositorio\nCuando creamos el repositorio seleccionamos que fuera publico, pero a veces vamos a tener proyectos que no pueden ser de acceso abierto, como por ejemplo si tenemos datos relacionados con salud.\nEn ese caso deberemos crearlo privado y darle acceso solo a quienes pueden ver esa informacion:\n\n\n\nCaptura de pantalla - Create a new repository - Visibility options",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabajando con repositorios</span>"
     ]
   },
   {
@@ -206,7 +206,7 @@
     "section": "3.3 Anatomía de un repositorio de GitHub",
     "text": "3.3 Anatomía de un repositorio de GitHub\nUn repositorio de GitHub puede contener diferentes tipos de archivos y carpetas:\n\nArchivos README. Utilizá un README.md para explicar de que se trata es tu proyecto y cómo utilizarlo. README.md es el archivo que se muestra automáticamente cuando abrís un repositorio de GitHub.\nLicencia. Un archivo llamado LICENSE que contiene la licencia del proyecto. La licencia le indica a las personas cómo puede utilizar el contenido de tu repositorio. Generalmente, utilizamos licencias permisivas para que las personas pueda utilizar los materiales de cualquier manera. Algunos ejemplos son la Licencia MIT o Apache. Podés revisar algunos recursos extra:\n\nElejí una licencia para proyectos de código.\nLicencias de software en lenguaje sencillo: explica la jerga legal de las licencias en términos sencillos\n\nGuía para colaborar. Un archivo llamado CONTRIBUTING.md que incluye las instrucciones que personas que quieren conlaborar en tu proyecto sepan lo que deben hacer si quieren ayudarte.\nCódigo de conducta. Un archivo llamado CODE_OF_CONDUCT.md. Los buenos proyectos tienen códigos de conducta para garantizar un ambiente amigable donde las personas pueden colaborar. GitHub tiene atajos para agregar Código de Conducta facilmente.\nCitation: Un archivo llamado CITATION.cff. Este archivo permite agregar con formato BibTex como se debe citar el trabajo que tenemos en este repositorio. Mas informacion sobre el archivo CITATION.cff\n\n\n3.3.1 Carpetas\nLos repositorios ademas de archivos pueden contener carpetas, lo que es muy util para mantener nuestra investigacion ordenada.\nLo que cuenta como “organizado” es muy personal, pero lo principal es que la estructura de carpetas y los nombres de los archivos deben ser autodocumentados (entender de que se trata con solo leer el nombre) y deben contener siempre archivos del mismo “tipo”.\nEntonces, coloca tus datos en la carpeta datos, los scripts con el codigo de preprocesamiento en la carpeta scripts o preprocesamiento y tu análisis en la carpeta analisis. Utiliza también subcarpetas, como datos/crudos para guardar los datos originales y datos/derivados para los datos preprocesados y depurados.\nNombrá tus archivos de modo que puedas saber que incluyen aún si pasaron 10 años desde que los creaste.\nUtiliza nombres cortos, descripciones breves de lo que hay dentro.\n\nSi trasbajas con RStudio, es una muy buena idea que el repositorio contenga un proyecto de RStudio, que ayuda a tener todos los elementos de un proyecto de datos ordenados.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabajando con repositorios</span>"
     ]
   },
   {
@@ -216,7 +216,7 @@
     "section": "3.4 Agregando a nuestro equipo",
     "text": "3.4 Agregando a nuestro equipo\nTodos los repositorios pueden ser utilizado por un grupo de personas. Y cada persona puede tener diferentes permisos para trabajar con el contenido del repositorio.\nPor ejemplo, habra gente que solo puede ver, otra gente que puede escribir y borrar archivos y otras personas que pueden gestionar al equipo de trabajo.\nPara poder invitar a alguien necesitas su usuario de GitHub. Luego sigue estos pasos:\n\nEn el nombre del repositorio, haz clic en Configuración (Settings).\nEn la sección “Acceso” de la barra lateral, haz clic en Colaboradores (Collaborators and teams).\nHaz clic en Agregar personas (Add people).\nComienza a teclear el nombre de usuario la persona que deseas invitar dentro del campo de búsqueda y seleccionalo de la lista de coincidencias.\nHaga clic en Agregar ese usuario al repositorio (Add to repository).\nEl usuario recibirá un correo electrónico invitándolo al repositorio. Una vez que acepte la invitación, tendrá acceso de colaborador.\n\n\nVamos a agregar como colaboradores del primer repositorio que creamos al menos dos personas del taller.\n\nComparte tu usuario de GitHub en el chat y en el documento compartido.\nSelecciona otras dos personas y agregalas como colaboradores de tu repositorio.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Repositorios</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trabajando con repositorios</span>"
     ]
   },
   {
@@ -226,17 +226,17 @@
     "section": "",
     "text": "4.1 Usando GitHub Issues para gestionar tu investigación\nTu proyecto ahora vive en un repositorio de GitHub, y has creado varios archivos útiles que orientarán a los colaboradores de tu proyecto. Ahora bien, ¿cómo sabe alguien que quiere contribuir lo que debería estar haciendo?\nTanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas pendientes, dudas metodológicas o problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets.\nGitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.\nEn términos generales, las personas crean tres tipos de issues:\nCuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.\nEn GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son bug (o error), feature (o nueva funcionalidad), question (o pregunta), good first issue (o para principiantes), urgent (o urgente), duplicate (duplicado), entre otros. También podemos crear nuevas etiquetas.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issues</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Nuestra lista TODO con Issues</span>"
     ]
   },
   {
     "objectID": "issues.html#usando-github-issues-para-gestionar-tu-investigación",
     "href": "issues.html#usando-github-issues-para-gestionar-tu-investigación",
     "title": "4  Issues",
-    "section": "4.1 Usando GitHub Issues para gestionar tu investigación",
-    "text": "4.1 Usando GitHub Issues para gestionar tu investigación\nTu proyecto ahora vive en un repositorio de GitHub, y has creado varios archivos útiles que orientarán a los colaboradores de tu proyecto. Ahora bien, ¿cómo sabe alguien que quiere contribuir lo que debería estar haciendo?\nTanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas pendientes, dudas metodológicas o problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets.\nGitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.\n\nHemos creado issues en sus repositorios durante la cursada. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.\nLos issues son una excelente manera de documentar decisiones metodológicas y mantener discusiones sobre el proyecto. Aunque se cierren los issues, quedan en el historial de GitHub como referencia futura.\n\nEn términos generales, las personas crean tres tipos de issues:\n\nPara informar sobre errores y describir los problemas que han encontrado.\nSugerencias de nuevas tareas, como “agregar un análisis de sensibilidad” o “incluir visualizaciones adicionales”.\nPreguntas sobre el uso del proyecto, el funcionamiento de partes del proyecto o su orientación futura.\n\nCuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.\nEn GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son bug (o error), feature (o nueva funcionalidad), question (o pregunta), good first issue (o para principiantes), urgent (o urgente), duplicate (duplicado), entre otros. También podemos crear nuevas etiquetas.",
+    "section": "",
+    "text": "Hemos creado issues en sus repositorios durante la cursada. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.\nLos issues son una excelente manera de documentar decisiones metodológicas y mantener discusiones sobre el proyecto. Aunque se cierren los issues, quedan en el historial de GitHub como referencia futura.\n\n\n\nPara informar sobre errores y describir los problemas que han encontrado.\nSugerencias de nuevas tareas, como “agregar un análisis de sensibilidad” o “incluir visualizaciones adicionales”.\nPreguntas sobre el uso del proyecto, el funcionamiento de partes del proyecto o su orientación futura.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issues</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Nuestra lista TODO con Issues</span>"
     ]
   },
   {
@@ -246,17 +246,17 @@
     "section": "",
     "text": "5.1 ¿Qué son los proyectos de GitHub?\nLos proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).\nLos proyectos forman parte de una cuenta (personal u organización). Un proyecto no “pertenece” a un repositorio, sino que está vinculado a uno. Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
   },
   {
     "objectID": "projects.html#qué-son-los-proyectos-de-github",
     "href": "projects.html#qué-son-los-proyectos-de-github",
     "title": "5  Projects",
-    "section": "5.1 ¿Qué son los proyectos de GitHub?",
-    "text": "5.1 ¿Qué son los proyectos de GitHub?\nLos proyectos de GitHub son una herramienta de gestión que ayuda a organizar y rastrear el trabajo, integrando con las otras herramientas que ya hemos visto de GitHub (como repositorios, issues, etc).\n\nAdicionar uma imagem ilustrativa.\n\nLos proyectos forman parte de una cuenta (personal u organización). Un proyecto no “pertenece” a un repositorio, sino que está vinculado a uno. Esto permite gestionar múltiples repositorios dentro de un mismo proyecto, facilitando la organización y seguimiento del trabajo.",
+    "section": "",
+    "text": "Adicionar uma imagem ilustrativa.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
   },
   {
@@ -266,7 +266,7 @@
     "section": "5.2 Creando un proyecto en GitHub",
     "text": "5.2 Creando un proyecto en GitHub\nLos proyectos pueden ser creados vinculados a un repositorio utilizando la pestaña “Projects”, y luego “New Project”. También es posible vincular un proyecto existente a un repositorio.\nEn el siguiente ejemplo, vamos a crear un nuevo proyecto vinculado al repositorio:\n\n\n\nCaptura de pantalla - GitHub Projects - Create\n\n\nEl siguiente paso es elegir una plantilla inicial. Recomendamos comenzar con “Planificación del equipo”, ¡pero puedes explorar otras plantillas después!\n\n\n\nCaptura de pantalla - GitHub Projects - Choose template\n\n\nDespués debemos añadir un nombre al proyecto, y luego hacer clic en “Create project”:\n\n\n\nCaptura de pantalla - GitHub Projects - Naming the project\n\n\n¡Tenemos un proyecto creado!\n\n\n\nCaptura de pantalla - GitHub Projects - Project created\n\n\nVamos explorar un poco cómo trabajar con este proyecto.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
   },
   {
@@ -276,7 +276,7 @@
     "section": "5.3 Añadir columnas",
     "text": "5.3 Añadir columnas\nUsando la plantilla elegida, comenzamos con 3 columnas: To do (por hacer), Doing (en progreso), Done (hecho).\nEste formato es conocido como Kanban, y es muy útil para visualizar el flujo de trabajo y el estado de las tareas.\n\n\n\nEjemplo de tablero Kanban\n\n\nSi estas columnas no son suficientes, podemos crear nuevas columnas usando el botón de +:\n\n\n\nCaptura de pantalla - Projects - Ejemplo de añadir columna\n\n\nPodemos configurar algunos elementos para la columna, como: nombre (Label text), color (Color) y descripción (Description):\n\n\n\nCaptura de pantalla - Projects - Configurar columna\n\n\n¡Ahora la columna está creada! \nSin embargo, tiene más sentido que sea la primera columna presentada. Podemos mover la columna arrastrándola.\n\n\n\nCaptura de pantalla - Projects - Move columns\n\n\nEl siguiente paso es añadir contenidos al proyecto.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
   },
   {
@@ -286,7 +286,7 @@
     "section": "5.4 Añadir elementos",
     "text": "5.4 Añadir elementos\nPara añadir elementos a nuestro proyecto, podemos hacer clic en + Add Item en la parte inferior de la columna donde queremos añadir el elemento.\nPodemos añadir un elemento de las siguientes maneras:\n\nEscribiendo un breve mensaje (que puede ser convertido en una Issue);\nA partir de una Issue existente;\nA partir de un Pull Request (PR) existente (hablaremos de PR’s en breve, pero es una herramienta importante para la colaboración en proyectos).\n\nVamos a empezar añadiendo un elemento con un mensaje simple. Para ello, hacemos clic en + Add Item, escribimos un breve mensaje sobre la tarea y luego presionamos enter (o hacemos clic en “Create a Draft”):\n\n\n\nCaptura de pantalla - Projects - Add item\n\n\nOtra forma de añadir elementos es agregar una Issue o Pull Request existente. Para ello, hacemos clic en + Add Item, y en la caja de mensajes escribimos #. GitHub nos ofrecerá algunas opciones de repositorio, y debemos elegir el repositorio donde se encuentra la Issue/Pull Request que queremos añadir. Después de elegir el repositorio, GitHub presentará una lista de Issues y Pull Requests que podemos seleccionar para añadir al proyecto.\n\n\n\nCaptura de pantalla - Projects - Add item from Issues and Pull Requests\n\n\n\n5.4.1 Complementar los elementos\nCuando creamos Issues y Pull Requests, podemos añadir etiquetas (labels), personas responsables (Assignees), hitos del proyecto (Milestones), entre otros.\nAl añadir esta información, aparecerá en los elementos del proyecto, facilitando la visualización y organización del trabajo.\nVea el ejemplo de añadir labels y responsables a un Pull Request:\n\n\n\nCaptura de pantalla - Pull Requests - Add labels and assignees\n\n\nY luego verificar cómo el elemento aparece en el proyecto:\n\n\n\nCaptura de pantalla - Projects - Add labels, assignees and milestones\n\n\nPodemos configurar qué información queremos ver en los elementos del proyecto (recuerde guardar los cambios haciendo clic en Save):\n\n\n\nCaptura de pantalla - Projects - Configurar elementos",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
   },
   {
@@ -296,7 +296,7 @@
     "section": "5.5 Proyectos Públicos y Privados",
     "text": "5.5 Proyectos Públicos y Privados\nAl igual que los repositorios, los proyectos pueden ser públicos o privados.\nPara cambiar la visibilidad de un proyecto, en la esquina superior derecha de la pantalla del proyecto, haga clic en ..., y luego en Settings para abrir la pantalla de configuración.\n\n\n\nCaptura de pantalla - Projects - Settings\n\n\nEn la pantalla de configuración, al final de la página, podemos cambiar la visibilidad del proyecto:\n\n\n\nCaptura de pantalla - Projects - Configurar visibilidad",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
     ]
   },
   {
@@ -306,7 +306,117 @@
     "section": "5.6 Ejercicio",
     "text": "5.6 Ejercicio\n\nCree un proyecto en GitHub, vinculado al repositorio creado en los ejercicios anteriores.\nAñada algunas columnas y elementos al proyecto, y explore las funcionalidades disponibles.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ordenando nuestro trabajo</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html",
+    "href": "collaboration.html",
+    "title": "6  Colaboración",
+    "section": "",
+    "text": "6.1 Introducción a la colaboración\nLa colaboración es uno de los aspectos más importantes de GitHub. La plataforma ofrece varias herramientas que facilitan el trabajo en equipo y la contribución a proyectos de otros investigadores.\nExisten dos formas principales de colaborar en GitHub:\nEn este tutorial nos centraremos principalmente en la colaboración mediante fork, ya que es la forma un poco más compleja, y la mayoría de los conceptos aprendidos servirán para ambas formas de colaboración.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html#introducción-a-la-colaboración",
+    "href": "collaboration.html#introducción-a-la-colaboración",
+    "title": "6  Colaboración",
+    "section": "",
+    "text": "Colaboración directa (con permisos de escritura): Cuando tenemos permisos de edición en el repositorio.\nColaboración mediante fork (sin permisos de escritura): Cuando queremos contribuir a proyectos de terceros y no tenemos permisos de edición en el repositorio.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html#fork-de-repositorios",
+    "href": "collaboration.html#fork-de-repositorios",
+    "title": "6  Colaboración",
+    "section": "6.2 Fork de repositorios",
+    "text": "6.2 Fork de repositorios\nUn fork es una copia personal de un repositorio de otra persona u organización. Al hacer fork de un repositorio, creamos una copia exacta en nuestra cuenta de GitHub, lo que nos permite:\n\nExperimentar con cambios sin afectar el proyecto original\nProponer cambios al proyecto original\nUsar el proyecto como punto de partida para nuestras propias ideas\n\n\n6.2.1 Cómo hacer un fork\n\nNavegar al repositorio que queremos copiar\nHacer clic en el botón “Fork” en la esquina superior derecha\nSeleccionar nuestra cuenta como destino del fork\n\n\n\n\nCaptura de pantalla - Fork de un repositorio",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html#ramas-branches",
+    "href": "collaboration.html#ramas-branches",
+    "title": "6  Colaboración",
+    "section": "6.3 Ramas (Branches)",
+    "text": "6.3 Ramas (Branches)\nLas ramas nos permiten desarrollar funcionalidades aisladas del código principal. Conceptos importantes:\n\nmain: la rama principal del proyecto\nNueva rama: espacio seguro para hacer cambios\nLos cambios en una rama no afectan a las demás\n\n\n6.3.1 Crear una nueva rama\n\nEn nuestro fork, hacer clic en el menú de ramas\nEscribir el nombre de la nueva rama\nSeleccionar “Create branch”",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html#pull-requests",
+    "href": "collaboration.html#pull-requests",
+    "title": "6  Colaboración",
+    "section": "6.4 Pull Requests",
+    "text": "6.4 Pull Requests\nUn Pull Request (PR) es la forma de proponer cambios a un repositorio. Pasos básicos:\n\nHacer cambios en nuestra rama\nCrear un Pull Request\nDiscutir los cambios propuestos\nIncorporar los cambios al proyecto original\n\n\n6.4.1 Crear un Pull Request\n\nIr a la pestaña “Pull requests”\nHacer clic en “New Pull Request”\nSeleccionar las ramas a comparar\nDescribir los cambios propuestos\nCrear el Pull Request\n\n\n\n\nCaptura de pantalla - Crear Pull Request",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html#buenas-prácticas-de-colaboración",
+    "href": "collaboration.html#buenas-prácticas-de-colaboración",
+    "title": "6  Colaboración",
+    "section": "6.5 Buenas prácticas de colaboración",
+    "text": "6.5 Buenas prácticas de colaboración\n\nMantener los cambios pequeños y focalizados\nEscribir descripciones claras\nResponder a los comentarios de revisión\nMantener el fork actualizado con el repositorio original",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "collaboration.html#ejercicio-práctico",
+    "href": "collaboration.html#ejercicio-práctico",
+    "title": "6  Colaboración",
+    "section": "6.6 Ejercicio práctico",
+    "text": "6.6 Ejercicio práctico\n\n\n\n\n\n\nActividad\n\n\n\n\nHacer fork de este repositorio del curso\nCrear una rama nueva\nRealizar un cambio pequeño: agregar tu nombre en el archivo README, donde tenemos la lista de participantes\nCrear un Pull Request para el repositorio del curso",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Trabajando con otras personas</span>"
+    ]
+  },
+  {
+    "objectID": "release.html",
+    "href": "release.html",
+    "title": "7  Versiones",
+    "section": "",
+    "text": "7.1 Que son las versiones\nNuestros proyectos de invetigacion tienen muchos resultados. Muchas veces estos resultados no terminan en una publicacion, si no en otro tipo de artefactos que pueden ser muy utiles para vos y otros equipos.\nPor ejemplo conjunto de datos, materiales de clase y software.\nGitHub esta optimizado para trabajar con codigo pero tambien nos permite publicar otro tipo de contenido como el que mencionamos.\nAdemas nos permite vincularlo con Zenodo nos permite depositarlo en ese archivo y obtener un DOI para poder citarlo.\nAdemas Zenodo lleva estadistivas de vistas y descargas de cada elemento que depositamos.\nEn ocasiones, estos artefactos van a cambiar con el tiempo, por ejemplo mejoramos nuestro software o agregamos mas casos a nuestro conjunto de datos.\nPara poder tener un registro de las diferentes versiones de nuestros contenidos en GitHub existen los release o una nueva version de ese material.\nEs interesante saber con que version de un software o datos estamos trabajando porque eso nos ayudara a realizar nuestro trabajo de forma mas reproducible.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Compartir y mantener la autoria</span>"
+    ]
+  },
+  {
+    "objectID": "release.html#que-son-las-versiones",
+    "href": "release.html#que-son-las-versiones",
+    "title": "7  Versiones",
+    "section": "",
+    "text": "En software el release o las versiones estan dadas por esta nomenclatura: v.1.0 o v.2.5, que se lee version uno punto cero, o version dos punto cinco. Indicando que el software a tenido cambios mayores (cambia el numero adelante del punto) y algunos menores (cambia el numero detras del punto).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Compartir y mantener la autoria</span>"
+    ]
+  },
+  {
+    "objectID": "release.html#como-versionamos-nuestro-material.",
+    "href": "release.html#como-versionamos-nuestro-material.",
+    "title": "7  Versiones",
+    "section": "7.2 Como versionamos nuestro material.",
+    "text": "7.2 Como versionamos nuestro material.\nPara crear una nueva version (a veces se le dice lanzamiento) en GitHub, se debe:\n\nIr a la página principal del repositorio\nHacer clic en Releases a la derecha de la lista de archivos. Si la opción no aparece puedes acceder agregando /releases en la url del repositorio.\nHacer clic en la opcion create new release\n\n\n\n\nSeccion de releases de Github\n\n\n\nCompletar la versión de este release, el título y la descripción y luego presionar el botón publish release, como se muestra en la siguiente figura.\n\n\n\n\nEjemplo de datos para una nueva release",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Compartir y mantener la autoria</span>"
+    ]
+  },
+  {
+    "objectID": "release.html#tres-simples-pasos-para-compartir-nuestro-material",
+    "href": "release.html#tres-simples-pasos-para-compartir-nuestro-material",
+    "title": "7  Versiones",
+    "section": "7.3 Tres simples pasos para compartir nuestro material",
+    "text": "7.3 Tres simples pasos para compartir nuestro material\nYa charlamos y nos encargamos de los dos primeros pasos:\nPaso 1: seleccionar una licencia abierta.\nPaso 2: almacenar el material en un repositorio que nos permita publicarlo.\nPaso 3: agregar un indentificador de objeto digital (DOI) para que sea citable. \nAlli es donde entra Zenodo. Seguiremos estos pasos:\n\nEntrar a Zenodo y presionar el botón Login en la parte superior derecha de la página y seleccionar la opción de iniciar sesión con tu cuenta de GitHub.\n\n\n\n\nLogin en Zenodo\n\n\n\nDebemos autorizar la aplicación para otorgarle a Zenodo los permisos que necesita para poder asignar un DOI a tu repositorio. \nLuego de confirmar que es nuestra cuenta (nos llegará un mail), estaremos logueados en Zenodo y en la esquina superior derecha aparece nuestro correo asociado a GitHub, si hacemos click en el triangulito se despliega un menú donde seleccionamos GitHub:\n\n\n\n\nSeleccionar GitHub\n\n\n\nAhora, elije el repositorio que deseas archivar. Para habilitar esta funcionalidad hacemos clic en el botón Activar junto a al repositorio (en este caso GEE_course_code). El respositorio debe ser público\n\n\n\n\nSeleccionar el repositorio que se quiere depositar en Zenodo\n\n\n\nDebemos verificar que la configuración del repositorio para enviarle mensajes a Zenodo fue exitosa, para eso hacemos clic en la pestaña de configuración en tu repositorio y luego clic en Webhooks en el menú de la izquierda. Deberías ver una pantalla similar a la siguiente imagen:\n\n\n\n\nChequear que la relacion esta funcionando\n\n\n\nCrea una nueva versión: Zenodo archiva tu repositorio cada vez que generes una nueva versión.\nAhora vamos a obtener el DOI, para eso debemos volver a Zenodo y hacer click en Upload. Allí va a mostrarnos los diferentes materiales que tenemos publicados enZenodo, si hacemos click en el nombre, nos muestra todo el detalle, podemos editar la inforamción y si bajamos en la página a la derecha nos muestra el DOI y una cita sugerida.\n\n\n\n\nEjemplo de repositorio en Zenodo con cita y DOI\n\n\nListo, ya tenemos el DOI y la cita que podemos agregar a nuestro repo y pedirle a las personas que usen nuestros materiales que la utilicen para mencionarnos.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Compartir y mantener la autoria</span>"
     ]
   },
   {
@@ -317,7 +427,7 @@
     "text": "Instalando Git\nEste anexo detalla los pasos a seguir para instalar todo el software que vamos a necesitar para el taller:\nTambien vamos a ver como crear cuentas en las plataformas en la nube que vamos a utilizar:\nGit es una herramienta para control de versiones, vamos a utilizarla para trabajar colaborativamente.\nEn la pagina de Git podemos descargar el instalador para nuestro sistema operativo.\nEn esa misma pagina hay una guia de instalacion para cada sistema operativo en castellano. Sigue las instrucciones detallas en la misma.",
     "crumbs": [
       "Apéndices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preparando el entorno de trabajo</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Instalando el entorno de trabajo</span>"
     ]
   },
   {
@@ -328,97 +438,7 @@
     "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.",
     "crumbs": [
       "Apéndices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preparando el entorno de trabajo</span>"
-    ]
-  },
-  {
-    "objectID": "collaboration.html#introducción-a-la-colaboración",
-    "href": "collaboration.html#introducción-a-la-colaboración",
-    "title": "6  Colaboración",
-    "section": "6.1 Introducción a la colaboración",
-    "text": "6.1 Introducción a la colaboración\nLa colaboración es uno de los aspectos más importantes de GitHub. La plataforma ofrece varias herramientas que facilitan el trabajo en equipo y la contribución a proyectos de otros investigadores.\nExisten dos formas principales de colaborar en GitHub:\n\nColaboración directa (con permisos de escritura): Cuando tenemos permisos de edición en el repositorio.\nColaboración mediante fork (sin permisos de escritura): Cuando queremos contribuir a proyectos de terceros y no tenemos permisos de edición en el repositorio.\n\nEn este tutorial nos centraremos principalmente en la colaboración mediante fork, ya que es la forma un poco más compleja, y la mayoría de los conceptos aprendidos servirán para ambas formas de colaboración.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Colaboración</span>"
-    ]
-  },
-  {
-    "objectID": "collaboration.html#fork-de-repositorios",
-    "href": "collaboration.html#fork-de-repositorios",
-    "title": "6  Colaboración",
-    "section": "6.2 Fork de repositorios",
-    "text": "6.2 Fork de repositorios\nUn fork es una copia personal de un repositorio de otra persona u organización. Al hacer fork de un repositorio, creamos una copia exacta en nuestra cuenta de GitHub, lo que nos permite:\n\nExperimentar con cambios sin afectar el proyecto original\nProponer cambios al proyecto original\nUsar el proyecto como punto de partida para nuestras propias ideas\n\n\n6.2.1 Cómo hacer un fork\n\nNavegar al repositorio que queremos copiar\nHacer clic en el botón “Fork” en la esquina superior derecha\nSeleccionar nuestra cuenta como destino del fork\n\n\n\n\nCaptura de pantalla - Fork de un repositorio",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Colaboración</span>"
-    ]
-  },
-  {
-    "objectID": "collaboration.html#ramas-branches",
-    "href": "collaboration.html#ramas-branches",
-    "title": "6  Colaboración",
-    "section": "6.3 Ramas (Branches)",
-    "text": "6.3 Ramas (Branches)\nLas ramas nos permiten desarrollar funcionalidades aisladas del código principal. Conceptos importantes:\n\nmain: la rama principal del proyecto\nNueva rama: espacio seguro para hacer cambios\nLos cambios en una rama no afectan a las demás\n\n\n6.3.1 Crear una nueva rama\n\nEn nuestro fork, hacer clic en el menú de ramas\nEscribir el nombre de la nueva rama\nSeleccionar “Create branch”",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Colaboración</span>"
-    ]
-  },
-  {
-    "objectID": "collaboration.html#pull-requests",
-    "href": "collaboration.html#pull-requests",
-    "title": "6  Colaboración",
-    "section": "6.4 Pull Requests",
-    "text": "6.4 Pull Requests\nUn Pull Request (PR) es la forma de proponer cambios a un repositorio. Pasos básicos:\n\nHacer cambios en nuestra rama\nCrear un Pull Request\nDiscutir los cambios propuestos\nIncorporar los cambios al proyecto original\n\n\n6.4.1 Crear un Pull Request\n\nIr a la pestaña “Pull requests”\nHacer clic en “New Pull Request”\nSeleccionar las ramas a comparar\nDescribir los cambios propuestos\nCrear el Pull Request\n\n\n\n\nCaptura de pantalla - Crear Pull Request",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Colaboración</span>"
-    ]
-  },
-  {
-    "objectID": "collaboration.html#buenas-prácticas-de-colaboración",
-    "href": "collaboration.html#buenas-prácticas-de-colaboración",
-    "title": "6  Colaboración",
-    "section": "6.5 Buenas prácticas de colaboración",
-    "text": "6.5 Buenas prácticas de colaboración\n\nMantener los cambios pequeños y focalizados\nEscribir descripciones claras\nResponder a los comentarios de revisión\nMantener el fork actualizado con el repositorio original",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Colaboración</span>"
-    ]
-  },
-  {
-    "objectID": "collaboration.html#ejercicio-práctico",
-    "href": "collaboration.html#ejercicio-práctico",
-    "title": "6  Colaboración",
-    "section": "6.6 Ejercicio práctico",
-    "text": "6.6 Ejercicio práctico\n\n\n\n\n\n\nActividad\n\n\n\n\nHacer fork de este repositorio del curso\nCrear una rama nueva\nRealizar un cambio pequeño: agregar tu nombre en el archivo README, donde tenemos la lista de participantes\nCrear un Pull Request para el repositorio del curso",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Colaboración</span>"
-    ]
-  },
-  {
-    "objectID": "release.html#que-son-las-versiones",
-    "href": "release.html#que-son-las-versiones",
-    "title": "7  Versiones",
-    "section": "7.1 Que son las versiones",
-    "text": "7.1 Que son las versiones\nEn ocasiones, estos artefactos van a cambiar con el tiempo, por ejemplo mejoramos nuestro software o agregamos mas casos a nuestro conjunto de datos.\nPara poder tener un registro de las diferentes versiones de nuestros contenidos en GitHub existen los release o una nueva version de ese material.\n\nEn software el release o las versiones estan dadas por esta nomenclatura: v.1.0 o v.2.5, que se lee version uno punto cero, o version dos punto cinco. Indicando que el software a tenido cambios mayores (cambia el numero adelante del punto) y algunos menores (cambia el numero detras del punto).\n\nEs interesante saber con que version de un software o datos estamos trabajando porque eso nos ayudara a realizar nuestro trabajo de forma mas reproducible.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Versiones</span>"
-    ]
-  },
-  {
-    "objectID": "release.html#como-versionamos-nuestro-material.",
-    "href": "release.html#como-versionamos-nuestro-material.",
-    "title": "7  Versiones",
-    "section": "7.2 Como versionamos nuestro material.",
-    "text": "7.2 Como versionamos nuestro material.\nPara crear una nueva version (a veces se le dice lanzamiento) en GitHub, se debe:\n\nIr a la página principal del repositorio\nHacer clic en Releases a la derecha de la lista de archivos. Si la opción no aparece puedes acceder agregando /releases en la url del repositorio.\nHacer clic en la opcion create new release\n\n\n\n\nSeccion de releases de Github\n\n\n\nCompletar la versión de este release, el título y la descripción y luego presionar el botón publish release, como se muestra en la siguiente figura.\n\n\n\n\nEjemplo de datos para una nueva release",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Versiones</span>"
-    ]
-  },
-  {
-    "objectID": "release.html#tres-simples-pasos-para-compartir-nuestro-material",
-    "href": "release.html#tres-simples-pasos-para-compartir-nuestro-material",
-    "title": "7  Versiones",
-    "section": "7.3 Tres simples pasos para compartir nuestro material",
-    "text": "7.3 Tres simples pasos para compartir nuestro material\nYa charlamos y nos encargamos de los dos primeros pasos:\nPaso 1: seleccionar una licencia abierta.\nPaso 2: almacenar el material en un repositorio que nos permita publicarlo.\nPaso 3: agregar un indentificador de objeto digital (DOI) para que sea citable. \nAlli es donde entra Zenodo. Seguiremos estos pasos:\n\nEntrar a Zenodo y presionar el botón Login en la parte superior derecha de la página y seleccionar la opción de iniciar sesión con tu cuenta de GitHub.\n\n\n\n\nLogin en Zenodo\n\n\n\nDebemos autorizar la aplicación para otorgarle a Zenodo los permisos que necesita para poder asignar un DOI a tu repositorio. \nLuego de confirmar que es nuestra cuenta (nos llegará un mail), estaremos logueados en Zenodo y en la esquina superior derecha aparece nuestro correo asociado a GitHub, si hacemos click en el triangulito se despliega un menú donde seleccionamos GitHub:\n\n\n\n\nSeleccionar GitHub\n\n\n\nAhora, elije el repositorio que deseas archivar. Para habilitar esta funcionalidad hacemos clic en el botón Activar junto a al repositorio (en este caso GEE_course_code). El respositorio debe ser público\n\n\n\n\nSeleccionar el repositorio que se quiere depositar en Zenodo\n\n\n\nDebemos verificar que la configuración del repositorio para enviarle mensajes a Zenodo fue exitosa, para eso hacemos clic en la pestaña de configuración en tu repositorio y luego clic en Webhooks en el menú de la izquierda. Deberías ver una pantalla similar a la siguiente imagen:\n\n\n\n\nChequear que la relacion esta funcionando\n\n\n\nCrea una nueva versión: Zenodo archiva tu repositorio cada vez que generes una nueva versión.\nAhora vamos a obtener el DOI, para eso debemos volver a Zenodo y hacer click en Upload. Allí va a mostrarnos los diferentes materiales que tenemos publicados enZenodo, si hacemos click en el nombre, nos muestra todo el detalle, podemos editar la inforamción y si bajamos en la página a la derecha nos muestra el DOI y una cita sugerida.\n\n\n\n\nEjemplo de repositorio en Zenodo con cita y DOI\n\n\nListo, ya tenemos el DOI y la cita que podemos agregar a nuestro repo y pedirle a las personas que usen nuestros materiales que la utilicen para mencionarnos.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Versiones</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Instalando el entorno de trabajo</span>"
     ]
   }
 ]

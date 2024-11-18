@@ -14,7 +14,7 @@ book:
       href: index.qmd
     - text: "Introduccion"
       href: intro.qmd
-    - text "Perfil en GitHub"
+    - text: "Perfil en GitHub"
       href: profile.qmd
     - text: "Trabajando con repositorios"
       href: repositories.qmd
