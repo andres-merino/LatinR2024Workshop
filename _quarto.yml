@@ -10,17 +10,25 @@ book:
   language: "ES"
   repo-url: "https://github.com/Git4Researchers/LatinR2024Workshop"
   chapters:
-    - text: "Informaciones"
+    - text: "Informacion del taller"
       href: index.qmd
-    - intro.qmd
-    - profile.qmd
-    - repositories.qmd
-    - issues.qmd
-    - projects.qmd
-    - collaboration.qmd
-    - release.qmd
+    - text: "Introduccion"
+      href: intro.qmd
+    - text "Perfil en GitHub"
+      href: profile.qmd
+    - text: "Trabajando con repositorios"
+      href: repositories.qmd
+    - text: "Nuestra lista TODO con Issues"
+      href: issues.qmd
+    - text: "Ordenando nuestro trabajo"
+      href: projects.qmd
+    - text: "Trabajando con otras personas"
+      href: collaboration.qmd
+    - text: "Compartir y mantener la autoria"
+      href: release.qmd
   appendices:
-    - A_instalacion.qmd
+    - text: "Instalando el entorno de trabajo"
+      href: A_instalacion.qmd
   sidebar:
     background: "#275f8a"
     search: true
