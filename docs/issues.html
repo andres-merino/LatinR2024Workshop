@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.33">
+<meta name="generator" content="quarto-1.4.528">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Beatriz Milz y Yanina Bellini Saibene">
 
-<title>4&nbsp; Issues – Introducción a GitHub para Investigador(a|e)s</title>
+<title>Introducción a GitHub para Investigador(a|e)s - 4&nbsp; Issues</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c37b1e866e6cf8d6135513309d7092c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f48599c387dc24460130dcdc6abcc34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -79,13 +79,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./issues.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Nuestra lista TODO con Issues</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Introducción a GitHub para Investigador(a|e)s</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/Git4Researchers/LatinR2024Workshop" title="Ejecutar el código" class="quarto-navigation-tool px-1" aria-label="Ejecutar el código"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/Git4Researchers/LatinR2024Workshop" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -160,9 +160,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Apéndices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -186,6 +186,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#usando-github-issues-para-gestionar-tu-investigación" id="toc-usando-github-issues-para-gestionar-tu-investigación" class="nav-link active" data-scroll-target="#usando-github-issues-para-gestionar-tu-investigación"><span class="header-section-number">4.1</span> Usando GitHub Issues para gestionar tu investigación</a></li>
+  <li><a href="#tipos-de-issues" id="toc-tipos-de-issues" class="nav-link" data-scroll-target="#tipos-de-issues"><span class="header-section-number">4.2</span> Tipos de <em>issues</em></a></li>
   </ul>
 </nav>
     </div>
@@ -217,17 +218,51 @@ ul.task-list li input[type="checkbox"] {
 <p>Tanto si trabajamos solos como con un grupo de personas, la mejor forma de gestionarlo es utilizar un sistema de seguimiento de issues para controlar las tareas pendientes, dudas metodológicas o problemas que tenemos que solucionar. Los issues a veces se denominan tickets, por lo que los sistemas para su seguimiento también reciben el nombre de sistemas de tickets.</p>
 <p>GitHub permite crear issues para un proyecto, comentarlos y buscar en todos los issues disponibles.</p>
 <div class="importante">
-<p>Hemos creado issues en sus repositorios durante la cursada. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.</p>
+<p>Aqui hay <a href="https://github.com/Git4Researchers/LatinR2024Workshop/issues/8">un ejemplo de un issue en el repositorio del taller</a>. Se puede generar una conversacion en los issues hasta que se llega a un concenso y luego se pueden cerrar.</p>
 <p>Los issues son una excelente manera de documentar decisiones metodológicas y mantener discusiones sobre el proyecto. Aunque se cierren los issues, quedan en el historial de GitHub como referencia futura.</p>
 </div>
+</section>
+<section id="tipos-de-issues" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="tipos-de-issues"><span class="header-section-number">4.2</span> Tipos de <em>issues</em></h2>
 <p>En términos generales, las personas crean tres tipos de issues:</p>
 <ol type="1">
 <li><p>Para informar sobre errores y describir los problemas que han encontrado.</p></li>
 <li><p>Sugerencias de nuevas tareas, como “agregar un análisis de sensibilidad” o “incluir visualizaciones adicionales”.</p></li>
 <li><p>Preguntas sobre el uso del proyecto, el funcionamiento de partes del proyecto o su orientación futura.</p></li>
 </ol>
+<div class="ejercicio">
+<p>Crea dos issues en alguno de los respositorios del taller,</p>
+<ul>
+<li><p>en uno de los issues agrega un checklist con al menos tres items.</p></li>
+<li><p>en el otro issue prueba los formatos del texto. El texto de los issues puede tener formato markdown y por ende contener codigo de ejemplo, checklist, emojis, entre otros formatos.</p></li>
+</ul>
+</div>
+<div class="ejercicio">
+<p>Revisa los repositorios de las otras personas en el taller y crea un issue en alguno. Puede ser un issue que solo indique que es una prueba para este taller.</p>
+</div>
 <p>Cuanto más grande o antiguo es un proyecto, más difícil es encontrar información específica, a menos que trabajemos para hacer que las cosas sean fáciles de encontrar. GitHub permite añadir etiquetas a los issues para facilitar su búsqueda y organización.</p>
-<p>En GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son <strong>bug</strong> (o error), <strong>feature</strong> (o nueva funcionalidad), <strong>question</strong> (o pregunta), <strong>good first issue</strong> (o para principiantes), <strong>urgent</strong> (o urgente), <strong>duplicate</strong> (duplicado), entre otros. También podemos crear nuevas etiquetas.</p>
+<p>En GitHub hay etiquetas definidas por defecto pero también se puede definir nuevas etiquetas según la necesidad. Algunas de las etiquetas más usadas son <strong>bug</strong> (o error), <strong>feature</strong> (o nueva funcionalidad), <strong>question</strong> (o pregunta), <strong>good first issue</strong> (o para principiantes), <strong>urgent</strong> (o urgente), <strong>duplicate</strong> (duplicado), entre otros.</p>
+<p>También podemos crear nuevas etiquetas. A veces dependiendo del tipo de proyecto vamos a usar diferentes etiquetas, por ejemplo, este es el proyecto de traduccion de rOpenSci, las etiquetas son:</p>
+<ul>
+<li><strong>need-first-review</strong></li>
+<li><strong>Traduccion</strong></li>
+<li><strong>Traducao</strong></li>
+<li><strong>need-second-review</strong></li>
+<li><strong>ready-to-be-merge</strong></li>
+</ul>
+<p>En este blog post de Greg Wilson (en ingles) nos presenta <a href="https://ropensci.org/blog/2024/09/12/labels-writing-projects/">opciones de etiquetas para proyectos de documentos tecnicos, como libros, que tambien se realizan en GitHub</a>.</p>
+<div class="ejercicio">
+<p>En tu repo del taller crea esta serie de etiquetas:</p>
+<ul>
+<li>agregar: para pedir algo nuevo</li>
+<li>cambiar: existe pero podria ser mejor</li>
+<li>codigo: el issue esta en el software</li>
+<li>texto: el issue esta en el texto (documentos, capitulos, ejemplos, materiales de clase)<br>
+</li>
+<li>arreglar: algo no funciona bien</li>
+<li>herramientas: el issue esta relacionado a la infraestructura (por ejemplo software o paquetes que tenemos que instalar o usar)</li>
+</ul>
+</div>
 
 
 </section>
@@ -268,7 +303,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -300,47 +346,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -375,11 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -427,12 +429,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -655,12 +652,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./repositories.html" class="pagination-link" aria-label="Trabajando con repositorios">
+      <a href="./repositories.html" class="pagination-link  aria-label=" &lt;span="" con="" repositorios&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Trabajando con repositorios</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./projects.html" class="pagination-link" aria-label="Ordenando nuestro trabajo">
+      <a href="./projects.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Ordenando nuestro trabajo</span>">
         <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ordenando nuestro trabajo</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
